@@ -1,0 +1,19 @@
+.about-desc{
+font-size: 14px;
+line-height: 1.2;
+letter-spacing: -0.02em;
+display: flex;
+
+
+}
+.about-desc-list{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-title,
+.about-img
+{
+    margin-bottom: 40px;
+}
