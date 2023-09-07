@@ -7,38 +7,50 @@
         message and we'll get back to you shortly.
       </p>
       <form class="sign-form">
-        <input
-          class="sign-form-imput"
-          type="text"
-          id="user-name"
-          name="user-name"
-          required
-          placeholder="Enter your name"
-        />
+        <label for="user-name">
+          <input
+            class="sign-form-imput"
+            type="text"
+            id="user-name"
+            name="user-name"
+            required
+            placeholder="Enter your name"
+          />
+        </label>
 
-        <input
-          class="sign-form-imput"
-          type="email"
-          id="user-email"
-          name="user-email"
-          required
-          placeholder="Enter your email"
-        />
+        <label for="user-email">
+          <input
+            class="sign-form-imput"
+            type="email"
+            id="user-email"
+            name="user-email"
+            required
+            placeholder="Enter your email"
+          />
+        </label>
 
-        <textarea
-          class="sign-form-textarea"
-          id="user-comment"
-          name="user-comment"
-          rows="5"
-          placeholder="Message"
-        >
-        </textarea>
+        <label for="user-comment">
+          <textarea
+            class="sign-form-textarea"
+            id="user-comment"
+            name="user-comment"
+            rows="5"
+            placeholder="Message"
+          >
+          </textarea>
+        </label>
+
         <button class="sign-form-button" type="submit">Send</button>
 
         <p>
           By clicking on “Send” button, you agree to our
-          <a class="privacy-policy link" href="">Privacy Policy</a>, and allow
-          Promodo to use this information for marketing purposes.
+          <a
+            class="privacy-policy link"
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            >Privacy Policy </a
+          >, and allow Promodo to use this information for marketing purposes.
         </p>
       </form>
     </div>
@@ -48,8 +60,10 @@
           <img
             src="./images/lens.png"
             srcset="./images/lens.png 1x, ./images/lens@2x.png 2x"
+            loading="lazy"
             alt="Lens"
-            width="254"
+            width="150"
+            height="142"
           />
         </div>
       </li>
@@ -58,8 +72,10 @@
           <img
             src="./images/camera.png"
             srcset="./images/camera.png 1x, ./images/camera@2x.png 2x"
+            loading="lazy"
             alt="Camera"
-            width="254"
+            width="240"
+            height="296"
           />
         </div>
       </li>
