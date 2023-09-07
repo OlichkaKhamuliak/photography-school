@@ -1,1 +1,72 @@
+.header {
+  margin-top: 20px;
+}
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.top-block {
+  display: block;
+}
+.logo {
+  margin: 17px 0 17px 20px;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+.sign-up-link {
+  display: flex;
+  background-color: #1d1d1d;
+  margin-right: 14px;
+  border-radius: 16px;
+  border: 1px solid #1d1d1d;
+  width: 32px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (min-width: 768px) {
+  .sign-up-link {
+    display: none;
+  }
+}
+.mobile-sign-up {
+  fill: var(--brown);
+  fill-opacity: 0.4;
+  transition: var(--animation);
+}
 
+.sign-up-link:hover .mobile-sign-up,
+.sign-up-link:focus .mobile-sign-up {
+  fill-opacity: 1;
+}
+.menu-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding-right: 20px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+.burger-menu {
+  stroke: var(--white);
+  display: flex;
+  justify-content: center;
+  width: 32px;
+  height: 22px;
+}
+@media only screen and (min-width: 768px) {
+  .burger-menu {
+    width: 40px;
+    height: 28px;
+  }
+}
+.header-main-button {
+}
