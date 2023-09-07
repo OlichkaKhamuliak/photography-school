@@ -1,0 +1,104 @@
+.hero {
+  padding-top: 20px;
+}
+.hero-container {
+  border-radius: 30px;
+  background-color: #1d1d1d;
+}
+
+.hero-captian {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+  max-width: 295px;
+
+  color: var(--white);
+  font-size: 40px;
+  /* додати адаптивність при 320 */
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+}
+.hero-brown {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.hero-title {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 295px;
+
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+}
+.hero-photo-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 40px;
+}
+.hero-list {
+  display: flex;
+  margin-right: 38px;
+}
+
+.hero-list-item {
+  border: 2px solid var(--black);
+  border-radius: 50px;
+}
+.hero-student-img {
+  width: auto;
+}
+.hero-star-icon {
+  margin-right: 12px;
+
+  display: inline-flex;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--brown);
+}
+.hero-revies-text {
+  display: flex;
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.12;
+  letter-spacing: -0.04em;
+}
+.hero-subtitle {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.04em;
+}
+
+.hero-happy-arrow {
+  max-width: 89px;
+  margin-top: 4px;
+  margin-bottom: 32px;
+}
+
+.hero-link {
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.04em;
+}
+
+.hero-icon-arrow {
+  fill: var(--white);
+}
+
+.hero-thumb {
+  margin-left: auto;
+  margin-right: auto;
+}
