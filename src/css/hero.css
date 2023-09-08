@@ -1,0 +1,161 @@
+.hero {
+  padding-top: 20px;
+}
+.hero-container {
+  border-radius: 30px;
+  background-color: #1d1d1d;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+@media screen and (min-width: 416px) {
+  .hero-container {
+    margin: 0 auto;
+  }
+}
+
+.hero-captian {
+  /* margin-left: auto;
+  margin-right: auto; */
+  padding-top: 40px;
+  max-width: 295px;
+
+  color: var(--white);
+  font-size: 40px;
+  /* додати адаптивність при 320 */
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+}
+.hero-brown {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.hero-title {
+  margin-top: 20px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  max-width: 295px;
+
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+}
+.hero-photo-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 12%;
+  /* margin-left: auto;
+  margin-right: auto; */
+
+  margin-top: 40px;
+}
+
+.hero-link-container {
+  position: absolute;
+  top: 46px;
+  left: 0;
+  max-width: 90px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-list {
+  display: flex;
+  margin-right: 38px;
+}
+
+.hero-list img {
+  position: absolute;
+}
+
+.hero-list-item {
+}
+.hero-girl-1-img {
+  top: 0;
+  left: 0;
+}
+.hero-boy-img {
+  top: 0;
+  left: 33px;
+}
+.hero-girl-2-img {
+  top: 0;
+  left: 64px;
+}
+
+.wrapper-box {
+  display: flex;
+}
+
+.hero-star-box {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--brown);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 12px;
+}
+
+.hero-star-icon {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  fill: transparent;
+  stroke: var(--black);
+}
+
+.hero-revies-block {
+}
+
+.hero-revies-text {
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.12;
+  letter-spacing: -0.04em;
+}
+.hero-subtitle {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.04em;
+}
+
+.hero-happy-arrow {
+  max-width: 108px;
+  display: flex;
+}
+
+.hero-link {
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.04em;
+  width: 68px;
+}
+
+.hero-icon-arrow {
+  fill: var(--white);
+}
+
+.hero-thumb {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-photograf-art {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+}
