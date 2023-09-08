@@ -134,7 +134,7 @@
 
   .sign-img-camera {
     width: 340px;
-    height: 548px;
+    height: 540px;
     background-color: var(--gray);
     border-radius: 1000px;
   }
@@ -143,5 +143,28 @@
     transform: translateY(50%);
     margin-right: auto;
     margin-left: auto;
+  }
+}
+
+/**
+  |============================
+  | Desktop-1440 adaptation
+  |============================
+*/
+@media (min-width: 1440px) {
+  .sign-container {
+    gap: 200px;
+  }
+
+  .sign-img-lens {
+    width: 190px;
+  }
+
+  .img-lens-item {
+    scale: 1.3;
+  }
+
+  .sign-img-camera {
+    width: 350px;
   }
 }
