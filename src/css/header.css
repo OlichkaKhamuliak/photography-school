@@ -24,7 +24,9 @@
 
 .logo {
   margin: 17px 0 17px 20px;
-  font-size: 16px;
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: -0.08em;
 }
 .nav-list {
   display: flex;
@@ -89,11 +91,11 @@
     height: 28px;
   }
 }
-.header-main-button {
+.header-main-link {
   display: none;
 }
 @media only screen and (min-width: 768px) {
-  .header-main-button {
+  .header-main-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,12 +114,12 @@
   }
 }
 @media only screen and (min-width: 1280px) {
-  .header-main-button {
+  .header-main-link {
     padding: 16px 84px;
   }
 }
-.header-main-button:hover,
-.header-main-button:focus {
+.header-main-link:hover,
+.header-main-link:focus {
   background-color: var(--gray);
   color: var(--brown);
   transition: var(--animation);
