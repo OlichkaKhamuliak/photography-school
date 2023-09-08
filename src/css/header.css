@@ -97,13 +97,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 60px;
     padding: 16px 58px;
     border-radius: 12px;
     background-color: var(--white);
 
     color: #121212;
     font-family: DM Sans;
-    font-size: 18px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.55;
@@ -131,11 +132,23 @@
   font-size: 14px;
   text-transform: uppercase;
 }
-.navigation-links {
-  padding: 21px 0;
+
+@media only screen and (min-width: 1280px) {
+  .navigation-links {
+    padding: 21px 0;
+  }
 }
+
 .nav-list-item:hover,
 .nav-list-item:focus {
   color: var(--brown);
   transition: var(--animation);
+}
+.mobile-menus {
+  display: flex;
+}
+@media only screen and (min-width: 1280px) {
+  .mobile-menus {
+    display: none;
+  }
 }
