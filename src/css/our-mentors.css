@@ -1,9 +1,24 @@
 .mentors-section {
     padding-top: 80px;
 }
+@media screen and (min-width: 768px) {
+    .mentors-section {
+        padding-top: 100px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .mentors-section {
+        padding-top: 150px;
+    }
+}
 
 .mentors-title {
     margin-bottom: 40px;
+}
+@media screen and (min-width: 768px) {
+    .mentors-title {
+    margin-bottom: 50px;    
+    }
 }
 
 .mentors-list {
