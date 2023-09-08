@@ -17,10 +17,12 @@
     margin-top: 16px;
     margin-bottom: 40px;
 }
-/* .mentors-list-wrapper:last-child {
+.wrapper-eliot {
     margin-bottom: 0;
-} */
+}
 
-.mentors-list-subtitle {}
+.mentors-list-subtitle {
+    margin-bottom: 4px;
+}
 
 .mentors-list-desc {}
