@@ -25,9 +25,8 @@
   }
 }
 .footer-logo {
+  display: inline-block;
   margin-top: 40px;
-  width: 123px;
-  height: 16px;
   font-weight: 700;
   font-size: 24px;
 }
