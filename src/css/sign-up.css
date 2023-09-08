@@ -1,3 +1,7 @@
+.sign-container {
+  padding-top: 80px;
+}
+
 .sign-text {
   max-width: 295px;
   margin-top: 20px;
@@ -90,6 +94,10 @@
   |============================
 */
 @media (min-width: 768px) {
+  .sign-container {
+    padding-top: 100px;
+  }
+
   .sign-form-container,
   .sign-text,
   .sign-text-adept {
@@ -111,6 +119,7 @@
   .sign-container {
     display: flex;
     gap: 60px;
+    padding-top: 150px;
   }
 
   .sign-box {
