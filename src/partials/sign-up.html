@@ -14,7 +14,7 @@
             name="user-name"
             required
             placeholder="Enter your name"
-            minlength="3"
+            pattern="\w{3,16}"
           />
         </label>
 
@@ -29,7 +29,7 @@
           />
         </label>
 
-        <label>
+        <label class="sign-form-label" for="user-comment">
           <textarea
             class="sign-form-textarea"
             name="user-comment"
@@ -51,7 +51,7 @@
             href=""
             target="_blank"
             rel="noopener noreferrer"
-            >Privacy Policy </a
+            >Privacy Policy</a
           >, and allow Promodo to use this information for marketing purposes.
         </p>
       </form>

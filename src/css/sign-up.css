@@ -83,3 +83,21 @@
     display: none;
   }
 }
+
+/**
+  |============================
+  | Tablet adaptation
+  |============================
+*/
+@media (min-width: 768px) {
+  .sign-container,
+  .sign-text,
+  .sign-text-adept {
+    max-width: 480px;
+  }
+
+  .input-margin {
+    margin-top: 14px;
+    margin-bottom: 13px;
+  }
+}
