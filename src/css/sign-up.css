@@ -1,0 +1,171 @@
+.sign-text {
+  max-width: 295px;
+  margin-top: 20px;
+  margin-bottom: 41px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29; /* 128.571% */
+  letter-spacing: -0.02em;
+}
+
+.sign-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-form-input {
+  width: 100%;
+  height: 46px;
+  padding-left: 18px;
+  background-color: transparent;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: var(--white);
+  opacity: 0.7;
+}
+
+.sign-form-textarea {
+  width: 100%;
+  height: 112px;
+  padding-left: 18px;
+  margin-bottom: 40px;
+  background-color: transparent;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: var(--white);
+  opacity: 0.7;
+}
+
+.input-margin {
+  margin-top: 8px;
+  margin-bottom: 7px;
+}
+
+.sign-form-input::placeholder,
+.sign-form-textarea::placeholder {
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29; /* 128.571% */
+}
+
+.sign-form-textarea {
+  padding-top: 15px;
+}
+
+.sign-form-button {
+  width: 100%;
+  height: 48px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.25; /* 125% */
+  text-transform: uppercase;
+  border-radius: 14px;
+  background: var(--white, #fff);
+}
+
+.sign-text-adept {
+  max-width: 335px;
+  margin-bottom: 80px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.33; /* 133.333% */
+}
+
+.privacy-policy {
+  text-decoration-line: underline;
+}
+
+@media (max-width: 1280px) {
+  .sign-box {
+    display: none;
+  }
+}
+
+/**
+  |============================
+  | Tablet adaptation
+  |============================
+*/
+@media (min-width: 768px) {
+  .sign-form-container,
+  .sign-text,
+  .sign-text-adept {
+    max-width: 480px;
+  }
+
+  .input-margin {
+    margin-top: 14px;
+    margin-bottom: 13px;
+  }
+}
+
+/**
+  |============================
+  | Desktop-1280 adaptation
+  |============================
+*/
+@media (min-width: 1280px) {
+  .sign-container {
+    display: flex;
+    gap: 60px;
+  }
+
+  .sign-box {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    padding-bottom: 10px;
+  }
+
+  .sign-img-lens {
+    width: 180px;
+    height: 288px;
+    align-items: center;
+    border-radius: 1000px;
+    background-color: var(--brown);
+  }
+
+  .img-lens-item {
+    transform: translateY(50%);
+    scale: 1.25;
+  }
+
+  .sign-img-camera {
+    width: 340px;
+    height: 540px;
+    background-color: var(--gray);
+    border-radius: 1000px;
+  }
+
+  .img-camera-item {
+    transform: translateY(50%);
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+/**
+  |============================
+  | Desktop-1440 adaptation
+  |============================
+*/
+@media (min-width: 1440px) {
+  .sign-container {
+    gap: 200px;
+  }
+
+  .sign-img-lens {
+    width: 190px;
+  }
+
+  .img-lens-item {
+    scale: 1.3;
+  }
+
+  .sign-img-camera {
+    width: 350px;
+  }
+}
