@@ -117,6 +117,7 @@
     display: flex;
     align-items: flex-end;
     gap: 20px;
+    padding-bottom: 10px;
   }
 
   .sign-img-lens {
