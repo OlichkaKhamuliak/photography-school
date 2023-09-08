@@ -18,8 +18,8 @@
 
     <!-- Custom styles -->
     
-    <script type="module" crossorigin src="/photography-school/assets/index-74e46113.js"></script>
-    <link rel="stylesheet" href="/photography-school/assets/index-0c721315.css">
+    <script type="module" crossorigin src="/photography-school/assets/index-28f5e440.js"></script>
+    <link rel="stylesheet" href="/photography-school/assets/index-f49e0566.css">
   </head>
   <body>
     <header class="header container">
@@ -147,62 +147,66 @@
 </section>
 
       <section class="sign-up">
-  <div class="container">
-    <div>
+  <div class="container sign-container">
+    <div class="sign-form-container">
       <h2 class="section-title">Sign <span class="brown-title">up</span></h2>
-      <p>
+      <p class="sign-text">
         Please use the form below to contact us. Enter your name, email, and
         message and we'll get back to you shortly.
       </p>
       <form class="sign-form">
         <label>
           <input
-            class="sign-form-imput"
+            class="sign-form-input"
             type="text"
             name="user-name"
             required
             placeholder="Enter your name"
+            pattern="\w{3,16}"
           />
         </label>
 
         <label>
           <input
-            class="sign-form-imput"
+            class="sign-form-input input-margin"
             type="email"
             name="user-email"
             required
             placeholder="Enter your email"
+            minlength="3"
           />
         </label>
 
-        <label>
-          <textarea
-            class="sign-form-textarea"
-            name="user-comment"
-            rows="5"
-            placeholder="Message"
-          >
-          </textarea>
-        </label>
+        <label class="sign-form-label" for="user-comment"></label>
+        <textarea
+          class="sign-form-textarea"
+          name="user-comment"
+          id="user-comment"
+          rows="7"
+          placeholder="Message"
+          required
+          minlength="7"
+        ></textarea>
 
         <button class="sign-form-button" type="submit">Send</button>
 
-        <p>
+        <p class="sign-text-adept">
           By clicking on “Send” button, you agree to our
           <a
             class="privacy-policy link"
             href=""
             target="_blank"
             rel="noopener noreferrer"
-            >Privacy Policy </a
+            >Privacy Policy</a
           >, and allow Promodo to use this information for marketing purposes.
         </p>
       </form>
     </div>
-    <ul class="sign-box">
+    <ul class="sign-box list">
       <li>
         <div class="sign-img-lens">
           <img
+            class="img-lens-item"
             src="/photography-school/assets/lens-8820fafb.png"
             srcset="/photography-school/assets/lens-8820fafb.png 1x, /photography-school/assets/lens@2x-b4bc2d96.png 2x"
             loading="lazy"
@@ -215,6 +219,7 @@
       <li>
         <div class="sign-img-camera">
           <img
+            class="img-camera-item"
             src="/photography-school/assets/camera-2f742d1c.png"
             srcset="/photography-school/assets/camera-2f742d1c.png 1x, /photography-school/assets/camera@2x-ac056686.png 2x"
             loading="lazy"
