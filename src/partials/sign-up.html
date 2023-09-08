@@ -1,6 +1,6 @@
 <section class="sign-up">
-  <div class="container">
-    <div class="sign-container">
+  <div class="container sign-container">
+    <div class="sign-form-container">
       <h2 class="section-title">Sign <span class="brown-title">up</span></h2>
       <p class="sign-text">
         Please use the form below to contact us. Enter your name, email, and
@@ -29,17 +29,16 @@
           />
         </label>
 
-        <label class="sign-form-label" for="user-comment"> </label>
+        <label class="sign-form-label" for="user-comment"></label>
         <textarea
           class="sign-form-textarea"
           name="user-comment"
           id="user-comment"
-          rows="3"
+          rows="7"
           placeholder="Message"
           required
           minlength="7"
-        >
-        </textarea>
+        ></textarea>
 
         <button class="sign-form-button" type="submit">Send</button>
 
@@ -55,10 +54,11 @@
         </p>
       </form>
     </div>
-    <ul class="sign-box">
+    <ul class="sign-box list">
       <li>
         <div class="sign-img-lens">
           <img
+            class="img-lens-item"
             src="./images/lens.png"
             srcset="./images/lens.png 1x, ./images/lens@2x.png 2x"
             loading="lazy"
@@ -71,6 +71,7 @@
       <li>
         <div class="sign-img-camera">
           <img
+            class="img-camera-item"
             src="./images/camera.png"
             srcset="./images/camera.png 1x, ./images/camera@2x.png 2x"
             loading="lazy"

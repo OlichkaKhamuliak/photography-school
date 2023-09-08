@@ -90,7 +90,7 @@
   |============================
 */
 @media (min-width: 768px) {
-  .sign-container,
+  .sign-form-container,
   .sign-text,
   .sign-text-adept {
     max-width: 480px;
@@ -99,5 +99,49 @@
   .input-margin {
     margin-top: 14px;
     margin-bottom: 13px;
+  }
+}
+
+/**
+  |============================
+  | Desktop-1280 adaptation
+  |============================
+*/
+@media (min-width: 1280px) {
+  .sign-container {
+    display: flex;
+    gap: 60px;
+  }
+
+  .sign-box {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+  }
+
+  .sign-img-lens {
+    width: 180px;
+    height: 288px;
+    align-items: center;
+    border-radius: 1000px;
+    background-color: var(--brown);
+  }
+
+  .img-lens-item {
+    transform: translateY(50%);
+    scale: 1.25;
+  }
+
+  .sign-img-camera {
+    width: 340px;
+    height: 548px;
+    background-color: var(--gray);
+    border-radius: 1000px;
+  }
+
+  .img-camera-item {
+    transform: translateY(50%);
+    margin-right: auto;
+    margin-left: auto;
   }
 }
