@@ -1,6 +1,20 @@
 .hero {
-  padding-top: 20px;
+  padding-top: 90px;
   padding-bottom: 80px;
+  position: relative;
+
+  background-image: url(../images/back-mob.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../images/back-mob@2x.png);
+  }
 }
 
 .hero {
@@ -156,11 +170,6 @@
   }
 }
 
-/* .hero-happy-arrow {
-  max-width: 108px;
-  display: flex;
-} */
-
 .hero-list {
   display: flex;
   margin-right: 38px;
@@ -170,8 +179,6 @@
   position: absolute;
 }
 
-.hero-list-item {
-}
 .hero-girl-1-img {
   top: 0;
   left: 0;
@@ -239,13 +246,18 @@
     width: 82px;
     flex-direction: column;
     gap: 8px;
-    align-items: self-start;
+    align-items: flex-start;
   }
 }
 
 .hero-icon-arrow {
   fill: currentColor;
   width: 30px;
+}
+@media only screen and (min-width: 768px) {
+  .hero-icon-arrow {
+    width: 18px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -286,9 +298,6 @@
   stroke: var(--black);
 }
 
-.hero-revies-block {
-}
-
 .hero-subtitle {
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
@@ -318,9 +327,6 @@
   .hero-revies-text {
     line-height: 1.25;
   }
-}
-
-.hero-thumb {
 }
 
 @media only screen and (min-width: 1280px) {
