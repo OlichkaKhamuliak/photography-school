@@ -36,6 +36,12 @@
   }
 }
 
+@media only screen and (min-width: 1440px) {
+  .hero-container {
+    padding-right: 100px;
+  }
+}
+
 .hero-captian {
   padding-top: 40px;
   max-width: 295px;
@@ -186,7 +192,10 @@
   font-weight: 400;
   line-height: 1.29;
   letter-spacing: -0.04em;
-  width: 68px;
+  width: 89px;
+  display: flex;
+  gap: 4px;
+  align-items: center;
 }
 
 @media only screen and (min-width: 768px) {
@@ -194,11 +203,15 @@
     font-size: 16px;
     line-height: 1.25;
     width: 82px;
+    flex-direction: column;
+    gap: 8px;
+    align-items: self-start;
   }
 }
 
 .hero-icon-arrow {
   fill: currentColor;
+  width: 30px;
 }
 
 .wrapper-box {
