@@ -1,5 +1,6 @@
 .header {
   margin-top: 20px;
+  position: relative;
 }
 .header-nav {
   display: flex;
@@ -16,6 +17,11 @@
     padding: 0 50px;
   }
 }
+@media only screen and (min-width: 1440px) {
+  .header-nav {
+    width: 982px;
+  }
+}
 .top-block {
   display: flex;
   justify-content: space-between;
@@ -28,6 +34,13 @@
   font-weight: 600;
   letter-spacing: -0.08em;
 }
+
+@media only screen and (min-width: 1280px) {
+  .logo {
+    margin: 17px 0 17px 0px;
+  }
+}
+
 .nav-list {
   display: flex;
   align-items: center;
@@ -35,6 +48,11 @@
 @media only screen and (min-width: 1280px) {
   .nav-list {
     gap: 28px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .nav-list {
+    gap: 40px;
   }
 }
 .sign-up-link {
