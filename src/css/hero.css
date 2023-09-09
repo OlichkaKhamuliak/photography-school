@@ -17,6 +17,24 @@
   }
 }
 
+.hero {
+  padding-top: 90px;
+  padding-bottom: 80px;
+
+  background-image: url(../images/back-mob.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../images/back-mob@2x.png);
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .hero {
     padding-top: 120px;
@@ -47,7 +65,6 @@
     }
   }
 }
-
 .hero-container {
   border-radius: 30px;
   background-color: var(--gray);
@@ -237,6 +254,12 @@
   fill: currentColor;
   width: 30px;
 }
+@media only screen and (min-width: 768px) {
+  .hero-icon-arrow {
+    width: 18px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .hero-icon-arrow {
     width: 18px;
