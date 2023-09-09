@@ -213,6 +213,11 @@
   fill: currentColor;
   width: 30px;
 }
+@media only screen and (min-width: 768px) {
+  .hero-icon-arrow {
+    width: 18px;
+  }
+}
 
 .wrapper-box {
   display: flex;
