@@ -1,5 +1,5 @@
 .hero {
-  padding-top: 90px;
+  padding-top: 100px;
   padding-bottom: 80px;
   position: relative;
 
@@ -9,6 +9,11 @@
   background-size: cover;
 }
 
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .parent {
+    max-width: 100%;
+  }
+}
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
