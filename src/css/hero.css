@@ -1,19 +1,49 @@
 .hero {
-  padding-top: 20px;
+  padding-top: 90px;
   padding-bottom: 80px;
+
+  background-image: url(../images/back-mob.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../images/back-mob@2x.png);
+  }
 }
 
 @media only screen and (min-width: 768px) {
   .hero {
-    padding-top: 40px;
+    padding-top: 120px;
     padding-bottom: 100px;
+    background-image: url(../images/back-tab.png);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: url(../images/back-tab@2x.png);
+    }
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .hero {
-    padding-top: 80px;
+    padding-top: 160px;
     padding-bottom: 150px;
+    background-image: url(../images/background.png);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: url(../images/background@2x.png);
+    }
   }
 }
 
@@ -122,11 +152,6 @@
   }
 }
 
-/* .hero-happy-arrow {
-  max-width: 108px;
-  display: flex;
-} */
-
 .hero-list {
   display: flex;
   margin-right: 38px;
@@ -136,8 +161,6 @@
   position: absolute;
 }
 
-.hero-list-item {
-}
 .hero-girl-1-img {
   top: 0;
   left: 0;
@@ -205,13 +228,18 @@
     width: 82px;
     flex-direction: column;
     gap: 8px;
-    align-items: self-start;
+    align-items: flex-start;
   }
 }
 
 .hero-icon-arrow {
   fill: currentColor;
   width: 30px;
+}
+@media only screen and (min-width: 768px) {
+  .hero-icon-arrow {
+    width: 18px;
+  }
 }
 
 .wrapper-box {
@@ -246,9 +274,6 @@
   stroke: var(--black);
 }
 
-.hero-revies-block {
-}
-
 .hero-subtitle {
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
@@ -278,9 +303,6 @@
   .hero-revies-text {
     line-height: 1.25;
   }
-}
-
-.hero-thumb {
 }
 
 @media only screen and (min-width: 1280px) {
