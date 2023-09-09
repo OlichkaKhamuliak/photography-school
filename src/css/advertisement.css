@@ -1,7 +1,3 @@
-.advertisement-section {
-    margin-top: 80px;
-}
-
 .marquee {
     overflow: hidden;
     font-size: 28px;
@@ -12,11 +8,11 @@
     border: solid 1px rgba(255, 255, 255, 0.20);
   }
   
-  .marquee_inner {
+  .marquee-inner {
     display: flex;
   }
   
-  .marquee_line {
+  .marquee-line {
     flex-shrink: 0;
     margin: 0;
     padding: 20px 15px;
@@ -51,7 +47,7 @@
       line-height: 1.25;
      letter-spacing: -0.05em;
     }
-    .marquee_line {
+    .marquee-line {
         padding: 24px 20px;
     }
   } 
