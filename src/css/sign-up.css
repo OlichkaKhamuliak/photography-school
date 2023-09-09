@@ -25,7 +25,6 @@
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: var(--white);
-  opacity: 0.7;
 }
 
 .sign-form-textarea {
@@ -37,7 +36,6 @@
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: var(--white);
-  opacity: 0.7;
 }
 
 .input-margin {
@@ -51,6 +49,17 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 1.29; /* 128.571% */
+  opacity: 0.7;
+}
+
+.sign-form-input:active,
+.sign-form-input:hover,
+.sign-form-input:focus,
+.sign-form-textarea:active,
+.sign-form-textarea:hover,
+.sign-form-textarea:focus {
+  cursor: pointer;
+  opacity: 0.7;
 }
 
 .sign-form-textarea {
@@ -59,14 +68,22 @@
 
 .sign-form-button {
   width: 100%;
-  height: 48px;
+  height: 46px;
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.25; /* 125% */
   text-transform: uppercase;
   border-radius: 14px;
   background: var(--white, #fff);
+}
+
+.sign-form-button:active,
+.sign-form-button:hover,
+.sign-form-button:focus {
+  cursor: pointer;
+  color: var(--brown);
+  background-color: var(--gray);
 }
 
 .sign-text-adept {
@@ -107,6 +124,11 @@
   .input-margin {
     margin-top: 14px;
     margin-bottom: 13px;
+  }
+
+  .sign-form-button {
+    font-size: 18px;
+    height: 60px;
   }
 }
 
