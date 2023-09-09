@@ -1,5 +1,6 @@
 .header {
   margin-top: 20px;
+  position: relative;
 }
 .header-nav {
   display: flex;
