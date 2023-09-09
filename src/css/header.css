@@ -16,6 +16,11 @@
     padding: 0 50px;
   }
 }
+@media only screen and (min-width: 1440px) {
+  .header-nav {
+    width: 982px;
+  }
+}
 .top-block {
   display: flex;
   justify-content: space-between;
@@ -35,6 +40,11 @@
 @media only screen and (min-width: 1280px) {
   .nav-list {
     gap: 28px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .nav-list {
+    gap: 40px;
   }
 }
 .sign-up-link {
