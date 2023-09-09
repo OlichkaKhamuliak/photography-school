@@ -29,11 +29,18 @@
 }
 
 .logo {
-  margin: 17px 0 17px 0;
+  margin: 17px 0 17px 20px;
   font-size: 23px;
   font-weight: 600;
   letter-spacing: -0.08em;
 }
+
+@media only screen and (min-width: 1280px) {
+  .logo {
+    margin: 17px 0 17px 0px;
+  }
+}
+
 .nav-list {
   display: flex;
   align-items: center;
