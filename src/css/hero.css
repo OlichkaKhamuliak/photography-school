@@ -1,6 +1,7 @@
 .hero {
   padding-top: 90px;
   padding-bottom: 80px;
+  position: relative;
 
   background-image: url(../images/back-mob.png);
   background-repeat: no-repeat;

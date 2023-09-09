@@ -1,6 +1,8 @@
 .header {
   margin-top: 20px;
-  position: relative;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .header-nav {
   display: flex;
