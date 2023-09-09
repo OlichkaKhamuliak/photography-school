@@ -14,9 +14,55 @@ display: flex;
 
 .about-title,
 .about-img
-{
+{  
     margin-bottom: 40px;
 }
 .about-title{
     padding-top: 80px;
+}
+/* TAblet */
+@media screen  and (min-width:768px){
+    .about-desc{
+        display: flex;
+        width: 280px;
+        font-size: 16px;
+        line-height: 1.2;
+        letter-spacing: -0.02em;
+        font-size: 16px;          
+    }
+    .about-desc-list{
+    display:flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.about-title,
+.about-img
+{  
+ margin-bottom: 50px;
+}
+}
+/* TAblet */
+
+/*Desctop*/
+
+@media screen and (min-width:1280px){
+
+    .about-desc{
+        display: flex;
+        width: 280px;
+        font-size: 16px;
+        line-height: 1.2;
+        letter-spacing: -0.02em;
+        font-size: 16px;          
+    }
+    .about-desc-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 40px;
+    position: relative;
+    bottom: 350px;
+}
+
+    
 }
