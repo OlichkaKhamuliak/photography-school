@@ -25,6 +25,7 @@
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: var(--white);
+  transition: opacity var(--animation);
 }
 
 .sign-form-textarea {
@@ -36,6 +37,7 @@
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: var(--white);
+  transition: opacity var(--animation);
 }
 
 .input-margin {
@@ -76,6 +78,7 @@
   text-transform: uppercase;
   border-radius: 14px;
   background: var(--white, #fff);
+  transition: color background-color var(--animation);
 }
 
 .sign-form-button:active,
