@@ -2,7 +2,6 @@
   background-image: url(../images/background-mobile.png);
   background-color: #121212;
   background-size: contain;
-  position: fixed;
 }
 @media only screen and (min-width: 768px) {
   .footer {
