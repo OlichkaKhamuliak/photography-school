@@ -1,4 +1,5 @@
 .section-title{
+    padding-top: 80px;
     margin-bottom: 20px;
 }
 .section-text{
@@ -12,81 +13,62 @@
         letter-spacing: -0.02em;
 }
 .section-list{
-    list-style-type: none;
+    padding: 0;
     margin: 0 auto;
-    padding-left: 0;
-        }
-.section-item{
-    border-radius: 12px;
-        border: 1px solid rgba(255, 255, 255, 0.20);
-        background: var(--linear-gradient);
-        width: 335px;
-        height: 398px;
-            flex-shrink: 0;
 }
+.section-item{
+ position: relative;
+display: flex;
+flex-direction: column;
+border-radius: 12px;
+border: 1px solid rgba(255, 255, 255, 0.20);
+background: var(--linear-gradient);
+height: 398px;
+flex-shrink: 0;
+padding: 28px;
+}
+
 .section-item:not(:last-child){
     margin-bottom: 20px;
 }
 .list-title{
-    color: var(--white);
-        font-family: 'DM Sans';
-        font-size: 28px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.14;
-        margin: 0 auto;
-        margin-bottom: 164px;
-            margin-left: 28px;
-            width: 279px;
-}
-.list-title-two {
-    color: var(--white);
-    font-family: 'DM Sans';
     font-size: 28px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.14;
-    margin: 0 auto;
-    margin-bottom: 164px;
-    margin-left: 28px;
-    width: 275px;
+    max-width: 279px;
+    margin-top: 28px;
 }
-.list-text{
-    color: rgba(255, 255, 255, 0.50);
-        font-family: 'DM Sans';
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 1.29;
-        letter-spacing: -0.02em;
-            margin: 0 auto;
-            padding-bottom: 28px;
-            width: 279px;
+.list-title-two {
+    max-width: 275px;
+    margin-top: 28px;
+}
+.list-text {
+position: absolute;
+bottom: 28px;
+left: 28px;
+right: 28px;
+color: rgba(255, 255, 255, 0.50);
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
 }
 .list-button{
-    background-color: #1D1D1D;
+background-color: #1D1D1D;
     border-radius: 50%;
+    border: none;
     cursor: pointer;
     fill: transparent;
     stroke: #777777;
     width: 32px;
     height: 32px;
-    margin-left: 229px;
-    margin-top: 28px;
 }
 .list-number{
     color: rgba(255, 255, 255, 0.40);
-        font-family: 'DM Sans';
         font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
         line-height: 1.29;
         letter-spacing: -0.02em;
-        margin-top: 28px;
-        margin-left: 28px;
 }
 .list-opening{
     display: flex;
-    flex-wrap: nowrap;
-    margin-bottom: 42px;
+        justify-content: space-between
 }
