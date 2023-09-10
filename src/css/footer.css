@@ -1,22 +1,4 @@
 .footer-container {
-  background-image: url(../images/background-mobile.png);
-  background-repeat: repeat;
-  background-position: center;
-  background-size: contain;
-}
-@media only screen and (min-width: 768px) {
-  .footer-container {
-    background-image: url(../images/background-tablet.png);
-  }
-}
-@media only screen and (min-width: 1280px) {
-  .footer-container {
-    background-image: url(../images/background.png);
-    background-size: cover;
-  }
-}
-
-.footer-container {
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -34,12 +16,15 @@
   .footer-container {
     min-width: 768px;
     padding: 25px 32px;
+    background-image: url(../images/background-tablet.png);
   }
 }
 @media only screen and (min-width: 1280px) {
   .footer-container {
     min-width: 1280px;
     padding: 50px 100px 25px 100px;
+    background-image: url(../images/background.png);
+    background-size: cover;
   }
 }
 @media only screen and (min-width: 1440px) {
