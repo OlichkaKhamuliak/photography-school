@@ -100,6 +100,16 @@
   background-color: var(--gray);
 }
 
+@media (hover: hover) {
+  .sign-form-button:active,
+  .sign-form-button:hover,
+  .sign-form-button:focus {
+    cursor: pointer;
+    color: var(--brown);
+    background-color: var(--gray);
+  }
+}
+
 .sign-text-adept {
   max-width: 335px;
   margin-bottom: 80px;
