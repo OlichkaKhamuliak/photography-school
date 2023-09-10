@@ -123,16 +123,32 @@ address {
     margin-right: 60px;
   }
 }
+@media only screen and (min-width: 1280px) {
+  .main-links {
+    gap: 50px;
+    margin-right: 60px;
+  }
+}
 
 .social-links {
   display: flex;
   flex-direction: column;
   gap: 14px;
 }
+@media only screen and (min-width: 1280px) {
+  .social-links {
+    gap: 20px;
+  }
+}
 .anchor-links {
   display: flex;
   flex-direction: column;
   gap: 14px;
+}
+@media only screen and (min-width: 1280px) {
+  .anchor-links {
+    gap: 20px;
+  }
 }
 
 .submit-email-form {
@@ -170,6 +186,7 @@ address {
 @media only screen and (min-width: 1280px) {
   .footer-email-input {
     width: 216px;
+    margin-right: 16px;
   }
 }
 
