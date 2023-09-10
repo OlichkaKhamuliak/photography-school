@@ -98,11 +98,12 @@
   fill-opacity: 0.4;
   transition: var(--animation);
 }
-
+.sign-form-button {
+  transition: var(--animation);
+}
 .sign-form-button:active,
 .sign-form-button:hover {
   fill-opacity: 1;
-  transition: var(--animation);
 }
 
 .menu-btn {
@@ -114,6 +115,7 @@
   padding-right: 20px;
   background-color: transparent;
   border: none;
+  transition: var(--animation);
 }
 @media only screen and (min-width: 1280px) {
   .menu-btn {
@@ -129,7 +131,6 @@
 }
 .menu-btn:active .burger-menu,
 .menu-btn:focus .burger-menu {
-  transition: var(--animation);
   stroke: var(--brown);
   fill: var(--brown);
 }
