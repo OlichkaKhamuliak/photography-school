@@ -115,7 +115,6 @@
   padding-right: 20px;
   background-color: transparent;
   border: none;
-  transition: var(--animation);
 }
 @media only screen and (min-width: 1280px) {
   .menu-btn {
@@ -128,6 +127,7 @@
   justify-content: center;
   width: 32px;
   height: 22px;
+  transition: var(--animation);
 }
 .menu-btn:active .burger-menu,
 .menu-btn:focus .burger-menu {
