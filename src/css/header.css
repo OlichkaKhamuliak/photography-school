@@ -187,6 +187,7 @@
 .nav-list-item:focus {
   color: var(--brown);
   transition: var(--animation);
+  font-weight: 700;
 }
 .mobile-menus {
   display: flex;
