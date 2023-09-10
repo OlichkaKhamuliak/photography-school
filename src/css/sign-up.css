@@ -60,12 +60,20 @@
 
 .sign-form-input:active,
 .sign-form-input:hover,
-.sign-form-input:focus,
 .sign-form-textarea:active,
-.sign-form-textarea:hover,
-.sign-form-textarea:focus {
+.sign-form-textarea:hover {
   background-color: var(--gray);
   border: 1px solid var(--white);
+}
+
+@media (hover: hover) {
+  .sign-form-input:hover,
+  .sign-form-input:focus,
+  .sign-form-textarea:hover,
+  .sign-form-textarea:focus {
+    background-color: var(--gray);
+    border: 1px solid var(--white);
+  }
 }
 
 .sign-form-textarea {
@@ -76,7 +84,6 @@
   width: 100%;
   padding: 14px;
   border: none;
-
   margin-bottom: 20px;
   font-size: 16px;
   font-weight: 700;
@@ -242,9 +249,6 @@
 
   .sign-img-lens {
     width: 190px;
-  }
-
-  .img-lens-item {
   }
 
   .sign-img-camera {
