@@ -228,8 +228,7 @@ address {
   border-radius: 12px;
   background: #1d1d1d;
   border: none;
-
-  color: #fff;
+color: #fff;
   text-align: center;
   font-size: 20px;
   line-height: 1.2;
@@ -275,3 +274,4 @@ address {
     line-height: 1.29;
   }
 }
+

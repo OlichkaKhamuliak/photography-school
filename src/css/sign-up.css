@@ -116,8 +116,14 @@
   text-decoration-line: underline;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1279px) {
   .sign-box {
+    display: none;
+  }
+}
+
+@media (max-width: 1439px) {
+  .sign-box-max {
     display: none;
   }
 }
@@ -146,12 +152,24 @@
   .sign-form-input,
   .sign-form-textarea {
     padding: 20px 18px;
+    font-size: 16px;
+    line-height: 1.25;
   }
 
   .sign-form-button {
     font-size: 18px;
     height: 60px;
     padding: 16px;
+  }
+
+  .sign-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .sign-text-adept {
+    font-size: 14px;
+    line-height: 1.29;
   }
 }
 
@@ -211,12 +229,22 @@
     gap: 200px;
   }
 
+  .sign-box {
+    display: none;
+  }
+
+  .sign-box-max {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    padding-bottom: 10px;
+  }
+
   .sign-img-lens {
     width: 190px;
   }
 
   .img-lens-item {
-    scale: 1.3;
   }
 
   .sign-img-camera {

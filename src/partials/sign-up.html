@@ -14,7 +14,7 @@
             name="user-name"
             required
             placeholder="Enter your name"
-            pattern="\w{3,}"
+            pattern="[A-Za-z]{3,}"
             title="Enter your name of at least 3 characters (use only letters)"
           />
         </label>
@@ -27,8 +27,8 @@
             required
             placeholder="Enter your email"
             minlength="6"
-            pattern="[A-Za-z0-9@]{6,}"
-            title="The mail cannot be less than 6 Latin characters and must contain @."
+            pattern="[a-z0-9.]{3,}@[a-z0-9.]{3,}"
+            title="The mail cannot be less than 7 Latin characters and must contain @."
           />
         </label>
 
@@ -52,11 +52,14 @@
             href=""
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Privacy Policy"
             >Privacy Policy</a
           >, and allow Promodo to use this information for marketing purposes.
         </p>
       </form>
     </div>
+
+    <!-- For desktop-1280 -->
     <ul class="sign-box list">
       <li>
         <div class="sign-img-lens">
@@ -81,6 +84,36 @@
             alt="Camera"
             width="240"
             height="296"
+          />
+        </div>
+      </li>
+    </ul>
+
+    <!-- For desktop-1440 -->
+    <ul class="sign-box-max list">
+      <li>
+        <div class="sign-img-lens">
+          <img
+            class="img-lens-item"
+            src="./images/lens-max.png"
+            srcset="./images/lens-max.png 1x, ./images/lens-max@2x.png 2x"
+            loading="lazy"
+            alt="Lens"
+            width="163"
+            height="154"
+          />
+        </div>
+      </li>
+      <li>
+        <div class="sign-img-camera">
+          <img
+            class="img-camera-item"
+            src="./images/camera-max.png"
+            srcset="./images/camera-max.png 1x, ./images/camera-max@2x.png 2x"
+            loading="lazy"
+            alt="Camera"
+            width="254"
+            height="313"
           />
         </div>
       </li>
