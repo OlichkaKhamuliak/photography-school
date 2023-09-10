@@ -1,8 +1,8 @@
 .footer {
   background-image: url(../images/background-mobile.png);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
 }
 @media only screen and (min-width: 768px) {
   .footer {
@@ -27,7 +27,7 @@
   }
 }
 .cont {
-  margin-top: 20px;
+  margin-top: 25px;
   display: flex;
   flex-direction: column;
 }
@@ -55,14 +55,26 @@ address {
   margin-top: 20px;
   margin-bottom: 40px;
 }
+@media only screen and (min-width: 768px) {
+  .contact-info {
+    margin-top: 25px;
+  }
+}
 
 .ci-li {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 .ci-info,
 .mlink {
   font-size: 14px;
   max-width: 77px;
+  line-height: normal;
+}
+@media only screen and (min-width: 768px) {
+  .ci-info,
+  .mlink {
+    line-height: 1.29;
+  }
 }
 
 .ci-info,
@@ -81,13 +93,19 @@ address {
 }
 .main-links {
   display: flex;
+  gap: 40px;
+}
+@media only screen and (min-width: 768px) {
+  .main-links {
+    gap: 25px;
+    margin-right: 60px;
+  }
 }
 
 .social-links {
   display: flex;
   flex-direction: column;
   gap: 14px;
-  margin-right: 40px;
 }
 .anchor-links {
   display: flex;
@@ -119,6 +137,7 @@ address {
   outline: none;
   color: rgba(18, 18, 18, 0.7);
   font-size: 16px;
+  line-height: 1.29;
 }
 
 @media only screen and (min-width: 768px) {
@@ -168,10 +187,11 @@ address {
 }
 .pb-text {
   font-size: 12px;
-  line-height: 1.3;
+  line-height: 1.33;
 }
 @media only screen and (min-width: 768px) {
   .pb-text {
     font-size: 14px;
+    line-height: 1.29;
   }
 }
