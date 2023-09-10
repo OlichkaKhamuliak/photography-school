@@ -242,6 +242,8 @@
   display: flex;
   gap: 4px;
   align-items: center;
+
+  transition: color var(--animation);
 }
 
 @media only screen and (min-width: 768px) {
@@ -268,6 +270,16 @@
 @media only screen and (min-width: 768px) {
   .hero-icon-arrow {
     width: 18px;
+  }
+}
+
+.hero-link:active {
+  color: var(--brown);
+}
+@media (hover: hover) {
+  .hero-link:hover,
+  .hero-link:focus {
+    color: var(--brown);
   }
 }
 
@@ -341,6 +353,8 @@
     top: -77.3%;
     left: 0;
     justify-content: flex-end;
+    width: 397px;
+    margin-left: auto;
   }
 }
 
@@ -360,5 +374,44 @@
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
+  }
+}
+
+/* аніматіонс */
+
+.hero-container {
+  animation-name: bgherochange;
+  animation-duration: 6s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.hero-container {
+  transition: background-color 200ms ease-in-out 200ms;
+}
+
+.hero-container:hover {
+  animation-play-state: paused;
+}
+
+@keyframes bgherochange {
+  0% {
+    background-color: var(--gray);
+  }
+
+  25% {
+    background-color: rgb(85, 85, 85);
+  }
+
+  50% {
+    background-color: var(--gray);
+  }
+
+  75% {
+    background-color: rgb(85, 85, 85);
+  }
+
+  100% {
+    background-color: var(--gray);
   }
 }
