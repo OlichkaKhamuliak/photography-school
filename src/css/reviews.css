@@ -110,6 +110,9 @@
   .star-box {
     margin-left: auto;
   }
+  .reviews-box {
+    margin: 0 32px;
+  }
 }
 
 @media only screen and (max-width: 1279.98px) {
@@ -128,13 +131,11 @@
       (100% - var(--indent) * (var(--items) - 1)) / var(--items)
     );
   }
-}
-@media only screen and (min-width: 1440px) {
-  .reviews-box,
-  .reviews-box-2 {
-    width: 610px;
+  .reviews-box {
+    margin: 0;
   }
 }
+
 @media only screen and (max-width: 1279.98px) {
   .reviews-box-2 {
     display: none;
