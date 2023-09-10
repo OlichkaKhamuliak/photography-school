@@ -5,10 +5,10 @@
 }
 
 .reviews-section {
-  margin-top: 80px;
+  padding: 80px 0;
 }
 .section-title {
-  margin-bottom: 40px;
+  padding-bottom: 40px;
 }
 .reviews-container-box {
   display: flex;
@@ -99,7 +99,7 @@
 /* TABLET 768PX*/
 @media only screen and (min-width: 768px) {
   .reviews-section {
-    margin-top: 100px;
+    padding: 100px 0;
   }
   .section-title {
     margin-bottom: 50px;
@@ -126,13 +126,16 @@
   }
 }
 
-@media only screen and (max-width: 1228.98px) {
+@media only screen and (max-width: 1279.98px) {
   .reviews-box-2 {
     display: none;
   }
 }
 
 @media only screen and (min-width: 1280px) {
+  .reviews-section {
+    padding: 150px 0;
+  }
   .reviews-container-box {
     align-items: stretch;
   }
