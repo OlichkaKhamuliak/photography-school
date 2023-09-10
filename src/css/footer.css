@@ -31,11 +31,9 @@
   display: flex;
   flex-direction: column;
 }
-.logo-address {
-}
 @media only screen and (min-width: 768px) {
   .logo-address {
-    margin-right: 52px;
+    margin-right: 58px;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -57,6 +55,7 @@ address {
   margin-top: 20px;
   margin-bottom: 40px;
 }
+
 .ci-li {
   margin-bottom: 8px;
 }
@@ -98,7 +97,6 @@ address {
 
 .submit-email-form {
   margin-top: 75px;
-  width: 100%;
 }
 @media only screen and (min-width: 768px) {
   .submit-email-form {
@@ -119,6 +117,8 @@ address {
   padding-left: 18px;
   margin-right: 8px;
   outline: none;
+  color: rgba(18, 18, 18, 0.7);
+  font-size: 16px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -129,7 +129,7 @@ address {
 
 .footer-email-input::placeholder {
   color: #121212;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.2;
   opacity: 0.7;
 }
