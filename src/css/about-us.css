@@ -73,4 +73,7 @@ padding-top: 150px;
  .about-img{
     margin-bottom: 0;
  }
+ .about{
+    height: 0;
+ }
 }
