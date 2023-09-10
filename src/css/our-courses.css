@@ -80,6 +80,7 @@ background-color: #1D1D1D;
 }
 @media screen and (min-width: 768px){
     .section-item{
+        width: 342px;
         height: 452px;
         width: calc((100% - 20px) / 2);
         margin-bottom: 0;
@@ -116,4 +117,18 @@ background-color: #1D1D1D;
         font-size: 16px;
         line-height: 1.25;
     }
+}
+@media screen and (min-width: 1280px){
+.section-opening {
+        gap: 410px;
+    }
+.section-list{
+    flex-wrap: nowrap;
+}
+.section-item{
+    width: 347px;
+}
+.section-text{
+    width: 405px;
+}
 }
