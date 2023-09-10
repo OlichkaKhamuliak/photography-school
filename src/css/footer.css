@@ -1,7 +1,8 @@
 .footer {
   background-image: url(../images/background-mobile.png);
-  background-color: #121212;
-  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 @media only screen and (min-width: 768px) {
   .footer {
@@ -31,7 +32,11 @@
   flex-direction: column;
 }
 .logo-address {
-  margin-right: 58px;
+}
+@media only screen and (min-width: 768px) {
+  .logo-address {
+    margin-right: 52px;
+  }
 }
 @media only screen and (min-width: 768px) {
   .cont {
@@ -90,6 +95,7 @@ address {
   flex-direction: column;
   gap: 14px;
 }
+
 .submit-email-form {
   margin-top: 75px;
   width: 100%;
