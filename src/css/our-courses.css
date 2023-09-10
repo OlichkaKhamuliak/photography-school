@@ -125,6 +125,7 @@ background-color: #1D1D1D;
 @media screen and (min-width: 1280px){
 .section-opening {
         gap: 410px;
+        align-items: flex-start;
     }
 .section-list{
     flex-wrap: nowrap;
@@ -134,8 +135,10 @@ background-color: #1D1D1D;
 }
 .section-text{
     width: 405px;
+    padding-top: 150px;
 }
 .courses-title{
     padding-top: 150px;
+    letter-spacing: -0.04em;
 }
 }
