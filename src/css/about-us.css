@@ -68,6 +68,12 @@ padding-top: 100px;
     
 }
 
-
-    
+    .about-title {
+padding-top: 150px;
+}
+ .about-title,
+.about-img
+{  
+ margin-bottom: 50px;
+}   
 }
