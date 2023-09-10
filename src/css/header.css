@@ -22,6 +22,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  background-color: var(--black);
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
 
@@ -95,13 +96,16 @@
 .mobile-sign-up {
   fill: var(--brown);
   fill-opacity: 0.4;
-  transition: var(--animation);
 }
 
-.sign-up-link:hover .mobile-sign-up,
-.sign-up-link:focus .mobile-sign-up {
+.sign-form-button .mobile-sign-up {
+  transition: fill-opacity var(--animation);
+}
+.sign-form-button:active .mobile-sign-up,
+.sign-form-button:hover .mobile-sign-up {
   fill-opacity: 1;
 }
+
 .menu-btn {
   display: flex;
   align-items: center;
@@ -123,7 +127,13 @@
   justify-content: center;
   width: 32px;
   height: 22px;
+  transition: stroke var(--animation);
 }
+.menu-btn:active .burger-menu,
+.menu-btn:focus .burger-menu {
+  stroke: var(--brown);
+}
+
 @media only screen and (min-width: 768px) {
   .burger-menu {
     width: 40px;
@@ -132,6 +142,7 @@
 }
 .header-main-link {
   display: none;
+  transition: background-color var(--animation), color var(--animation);
 }
 @media only screen and (min-width: 768px) {
   .header-main-link {
@@ -160,11 +171,19 @@
     min-width: 238px;
   }
 }
-.header-main-link:hover,
-.header-main-link:focus {
+
+.header-main-link:active,
+.header-main-link:hover {
   background-color: var(--gray);
   color: var(--brown);
-  transition: var(--animation);
+}
+
+@media only screen and (min-width: 1280px) {
+  .header-main-link:hover,
+  .header-main-link:focus {
+    background-color: var(--gray);
+    color: var(--brown);
+  }
 }
 
 @media only screen and (max-width: 1279px) {
@@ -175,6 +194,7 @@
 .nav-list-item {
   font-size: 14px;
   text-transform: uppercase;
+  transition: font-weight var(--animation), color var(--animation);
 }
 
 @media only screen and (min-width: 1280px) {
@@ -186,7 +206,6 @@
 .nav-list-item:hover,
 .nav-list-item:focus {
   color: var(--brown);
-  transition: var(--animation);
   font-weight: 700;
 }
 .mobile-menus {
