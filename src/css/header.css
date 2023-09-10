@@ -96,10 +96,9 @@
 .mobile-sign-up {
   fill: var(--brown);
   fill-opacity: 0.4;
-  transition: fill var(--animation);
 }
 
-.sign-form-button {
+.sign-form-button .mobile-sign-up {
   transition: fill-opacity var(--animation);
 }
 .sign-form-button:active .mobile-sign-up,
@@ -143,7 +142,7 @@
 }
 .header-main-link {
   display: none;
-  transition: var(--animation);
+  transition: background-color var(--animation), color var(--animation);
 }
 @media only screen and (min-width: 768px) {
   .header-main-link {
@@ -195,7 +194,7 @@
 .nav-list-item {
   font-size: 14px;
   text-transform: uppercase;
-  transition: font-weight var(--animation);
+  transition: font-weight var(--animation), color var(--animation);
 }
 
 @media only screen and (min-width: 1280px) {
