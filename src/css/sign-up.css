@@ -19,7 +19,7 @@
 
 .sign-form-input {
   width: 100%;
-  height: 46px;
+
   padding: 14px 18px;
   background-color: transparent;
   border-radius: 12px;
@@ -29,12 +29,12 @@
   font-size: 14px;
   line-height: 1.29em;
 
-  transition: opacity var(--animation);
+  transition: background-color var(--animation);
 }
 
 .sign-form-textarea {
   width: 100%;
-  height: 112px;
+
   padding: 15px 18px;
   margin-bottom: 40px;
   background-color: transparent;
@@ -45,7 +45,7 @@
   font-family: DM Sans;
   font-size: 14px;
   line-height: 1.29em;
-  transition: opacity var(--animation);
+  transition: background-color var(--animation);
 }
 
 .input-margin {
@@ -55,10 +55,6 @@
 
 .sign-form-input::placeholder,
 .sign-form-textarea::placeholder {
-  color: var(--white);
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.29; /* 128.571% */
   opacity: 0.7;
 }
 
@@ -68,8 +64,8 @@
 .sign-form-textarea:active,
 .sign-form-textarea:hover,
 .sign-form-textarea:focus {
-  cursor: pointer;
-  opacity: 0.7;
+  background-color: var(--gray);
+  border: 1px solid var(--white);
 }
 
 .sign-form-textarea {
@@ -78,7 +74,6 @@
 
 .sign-form-button {
   width: 100%;
-  height: 46px;
   padding: 14px;
   border: none;
 
@@ -93,15 +88,13 @@
 }
 
 .sign-form-button:active,
-.sign-form-button:hover,
-.sign-form-button:focus {
+.sign-form-button:hover {
   cursor: pointer;
   color: var(--brown);
   background-color: var(--gray);
 }
 
 @media (hover: hover) {
-  .sign-form-button:active,
   .sign-form-button:hover,
   .sign-form-button:focus {
     cursor: pointer;
@@ -150,9 +143,15 @@
     margin-bottom: 13px;
   }
 
+  .sign-form-input,
+  .sign-form-textarea {
+    padding: 20px 18px;
+  }
+
   .sign-form-button {
     font-size: 18px;
     height: 60px;
+    padding: 16px;
   }
 }
 
