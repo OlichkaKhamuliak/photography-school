@@ -242,6 +242,8 @@
   display: flex;
   gap: 4px;
   align-items: center;
+
+  transition: color var(--animation);
 }
 
 @media only screen and (min-width: 768px) {
@@ -269,6 +271,11 @@
   .hero-icon-arrow {
     width: 18px;
   }
+}
+
+.hero-link:hover,
+.hero-link:focus {
+  color: var(--brown);
 }
 
 .wrapper-box {
