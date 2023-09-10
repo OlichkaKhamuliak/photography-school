@@ -35,7 +35,7 @@
 @media only screen and (min-width: 1280px) {
   .footer-container {
     min-width: 1280px;
-    padding: 50px 100px;
+    padding: 50px 100px 25px 100px;
   }
 }
 .cont {
@@ -199,6 +199,16 @@ address {
 .privacy-block {
   margin-top: 40px;
 }
+@media only screen and (min-width: 768px) {
+  .privacy-block {
+    margin-top: 0;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .privacy-block {
+    margin-top: 50px;
+  }
+}
 .privacy-list {
   display: flex;
   justify-content: space-between;
@@ -206,6 +216,11 @@ address {
 @media only screen and (min-width: 768px) {
   .privacy-list {
     margin-top: 74px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .privacy-list {
+    margin-top: 0;
   }
 }
 .pb-li {
