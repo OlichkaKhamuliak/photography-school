@@ -52,11 +52,10 @@ padding-top: 100px;
         display: flex;
         width: 280px;
         font-size: 16px;
-        line-height: 1.2;
-        letter-spacing: -0.02em;
+    
         font-size: 16px;  
         width: 268px;  
-        height: 260px; 
+       
       
     }
     .about-desc-list{
@@ -64,16 +63,14 @@ padding-top: 100px;
     justify-content: flex-end;
     gap: 20px;  
     position: relative;
-    bottom: 350px;
+    bottom: 310px;
     
 }
 
     .about-title {
 padding-top: 150px;
 }
- .about-title,
-.about-img
-{  
- margin-bottom: 50px;
-}   
+ .about-img{
+    margin-bottom: 0;
+ }
 }
