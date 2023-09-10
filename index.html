@@ -18,8 +18,8 @@
 
     <!-- Custom styles -->
     
-    <script type="module" crossorigin src="/photography-school/assets/index-93e0088e.js"></script>
-    <link rel="stylesheet" href="/photography-school/assets/index-0aa6a99b.css">
+    <script type="module" crossorigin src="/photography-school/assets/index-a904fdc0.js"></script>
+    <link rel="stylesheet" href="/photography-school/assets/index-70915eea.css">
   </head>
   <body>
     <header class="header container">
@@ -366,7 +366,7 @@
             name="user-name"
             required
             placeholder="Enter your name"
-            pattern="\w{3,}"
+            pattern="[A-Za-z]{3,}"
             title="Enter your name of at least 3 characters (use only letters)"
           />
         </label>
@@ -379,8 +379,8 @@
             required
             placeholder="Enter your email"
             minlength="6"
-            pattern="[A-Za-z0-9@]{6,}"
-            title="The mail cannot be less than 6 Latin characters and must contain @."
+            pattern="[a-z0-9.]{3,}@[a-z0-9.]{3,}"
+            title="The mail cannot be less than 7 Latin characters and must contain @."
           />
         </label>
 
@@ -404,11 +404,14 @@
             href=""
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Privacy Policy"
             >Privacy Policy</a
           >, and allow Promodo to use this information for marketing purposes.
         </p>
       </form>
     </div>
+
+    <!-- For desktop-1280 -->
     <ul class="sign-box list">
       <li>
         <div class="sign-img-lens">
@@ -433,6 +436,36 @@
             alt="Camera"
             width="240"
             height="296"
+          />
+        </div>
+      </li>
+    </ul>
+
+    <!-- For desktop-1440 -->
+    <ul class="sign-box-max list">
+      <li>
+        <div class="sign-img-lens">
+          <img
+            class="img-lens-item"
+            src="/photography-school/assets/lens-max-17104fbe.png"
+            srcset="/photography-school/assets/lens-max-17104fbe.png 1x, /photography-school/assets/lens-max@2x-1b205d91.png 2x"
+            loading="lazy"
+            alt="Lens"
+            width="163"
+            height="154"
+          />
+        </div>
+      </li>
+      <li>
+        <div class="sign-img-camera">
+          <img
+            class="img-camera-item"
+            src="/photography-school/assets/camera-max-696219a5.png"
+            srcset="/photography-school/assets/camera-max-696219a5.png 1x, /photography-school/assets/camera-max@2x-01f6fc45.png 2x"
+            loading="lazy"
+            alt="Camera"
+            width="254"
+            height="313"
           />
         </div>
       </li>
