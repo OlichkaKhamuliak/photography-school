@@ -233,6 +233,13 @@
     display: none;
   }
 
+  .sign-box-max {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    padding-bottom: 10px;
+  }
+
   .sign-img-lens {
     width: 190px;
   }
