@@ -369,3 +369,42 @@
     margin-top: 0;
   }
 }
+
+/* аніматіонс */
+
+.hero-container {
+  animation-name: bgherochange;
+  animation-duration: 6s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.hero-container {
+  transition: background-color 200ms ease-in-out 200ms;
+}
+
+.hero-container:hover {
+  animation-play-state: paused;
+}
+
+@keyframes bgherochange {
+  0% {
+    background-color: var(--gray);
+  }
+
+  25% {
+    background-color: rgb(85, 85, 85);
+  }
+
+  50% {
+    background-color: var(--gray);
+  }
+
+  75% {
+    background-color: rgb(85, 85, 85);
+  }
+
+  100% {
+    background-color: var(--gray);
+  }
+}
