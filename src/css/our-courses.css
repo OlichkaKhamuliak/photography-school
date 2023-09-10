@@ -12,7 +12,10 @@
         line-height: 1.29;
         letter-spacing: -0.02em;
 }
-
+.section-list{
+    padding: 0;
+    margin: 0 auto;
+}
 .section-item{
  position: relative;
 display: flex;
