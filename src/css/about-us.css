@@ -77,3 +77,15 @@ padding-top: 150px;
     height: 0;
  }
 }
+@media screen and (min-width:1440px){
+    .about-desc{
+        display: flex;
+        width: 330px;
+        
+    }
+    
+    .about-desc-list{
+        gap: 40px;
+    }
+    
+}
