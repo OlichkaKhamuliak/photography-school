@@ -152,12 +152,24 @@
   .sign-form-input,
   .sign-form-textarea {
     padding: 20px 18px;
+    font-size: 16px;
+    line-height: 1.25;
   }
 
   .sign-form-button {
     font-size: 18px;
     height: 60px;
     padding: 16px;
+  }
+
+  .sign-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .sign-text-adept {
+    font-size: 14px;
+    line-height: 1.29;
   }
 }
 
