@@ -36,9 +36,11 @@ padding: 28px;
     font-weight: 500;
     line-height: 1.14;
     max-width: 279px;
+    margin-top: 28px;
 }
 .list-title-two {
     max-width: 275px;
+    margin-top: 28px;
 }
 .list-text {
 position: absolute;
