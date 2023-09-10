@@ -215,6 +215,7 @@
 }
 
 .hero-link-container {
+  z-index: 20;
   position: absolute;
   top: 46px;
   left: 0;
@@ -348,6 +349,8 @@
     top: -77.3%;
     left: 0;
     justify-content: flex-end;
+    width: 397px;
+    margin-left: auto;
   }
 }
 
