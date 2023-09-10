@@ -1,0 +1,158 @@
+/* MOBILE 320PX - 375PX */
+:root {
+  --star-active: #bea69e;
+  --star-inactive: #414141;
+}
+
+.reviews-section {
+  padding: 80px 0;
+}
+.section-title {
+  padding-bottom: 40px;
+}
+.reviews-container-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 20px;
+}
+.reviews-box,
+.reviews-box-2 {
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+}
+.reviews-container-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 20px;
+}
+.reviews-box,
+.reviews-box-2 {
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+}
+.reviews-profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.reviews-img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+.reviews-user-name {
+  display: flex;
+  flex-direction: column;
+}
+.reviews-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  padding-bottom: 4px;
+}
+.reviews-about {
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  font-size: 12px;
+  font-weight: 400;
+}
+.reviews-response-text {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+}
+.star-box {
+  display: flex;
+  margin-left: 66px;
+  gap: 4px;
+}
+.reviews-response-comments {
+  margin-top: 20px;
+  margin-bottom: auto;
+}
+
+.star {
+  fill: var(--star-inactive);
+}
+.star.active {
+  fill: var(--star-active);
+}
+
+/* TABLET 768PX*/
+@media only screen and (min-width: 768px) {
+  .reviews-section {
+    padding: 100px 0;
+  }
+  .section-title {
+    margin-bottom: 50px;
+  }
+  .reviews-box,
+  .reviews-box-2 {
+    width: 640px;
+  }
+  .reviews-name {
+    line-height: 1.4;
+  }
+  .reviews-about {
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.017em;
+  }
+  .reviews-response-text {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+  }
+  .star-box {
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 1279.98px) {
+  .reviews-box-2 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .reviews-section {
+    padding: 150px 0;
+  }
+  .reviews-container-box {
+    align-items: stretch;
+  }
+  .reviews-box,
+  .reviews-box-2 {
+    width: 530px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .reviews-box,
+  .reviews-box-2 {
+    width: 610px;
+  }
+}
+
+@media only screen and (max-width: 1279.98px) {
+  .reviews-box-2 {
+    display: none;
+  }
+}
