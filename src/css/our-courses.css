@@ -1,7 +1,7 @@
 .courses-title{
     padding-top: 80px;
     margin-bottom: 20px;
-    
+     
 }
 .section-text{
     color: var(--white);
@@ -81,6 +81,7 @@ background-color: #1D1D1D;
         height: 452px;
         width: calc((100% - 20px) / 2);
         margin-bottom: 0;
+        padding: 32px;
     }
         .section-item:not(:last-child){
             margin-bottom: 0;
@@ -93,6 +94,7 @@ background-color: #1D1D1D;
     .list-title{
         max-width: 265px;
         font-size: 28px;
+        margin-top: 32px;
     }
     .section-opening{
         display: flex;
@@ -113,6 +115,9 @@ background-color: #1D1D1D;
     .list-text{
         font-size: 16px;
         line-height: 1.25;
+        left: 32px;
+        right: 32px;
+        bottom: 32px;
     }
 }
 @media screen and (min-width: 1280px){
