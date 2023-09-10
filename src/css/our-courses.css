@@ -101,6 +101,7 @@ background-color: #1D1D1D;
         gap: 58px;
         justify-content: center;
         align-items: flex-end;
+        margin-bottom: 50px;
     }
     .section-text{
         width: 381px;
@@ -111,6 +112,7 @@ background-color: #1D1D1D;
     .courses-title{
         font-size: 48px;
             line-height: 1.13;
+            padding-top: 100px;
     }
     .list-text{
         font-size: 16px;
@@ -132,5 +134,8 @@ background-color: #1D1D1D;
 }
 .section-text{
     width: 405px;
+}
+.courses-title{
+    padding-top: 150px;
 }
 }
