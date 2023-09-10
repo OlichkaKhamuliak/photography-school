@@ -153,6 +153,10 @@ address {
     margin-top: 74px;
   }
 }
+.pb-li {
+  display: flex;
+  flex-direction: column;
+}
 .pb-text {
   font-size: 12px;
   line-height: 1.3;
@@ -161,7 +165,4 @@ address {
   .pb-text {
     font-size: 14px;
   }
-}
-.rights {
-  line-height: 1.5;
 }
