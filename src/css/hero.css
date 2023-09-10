@@ -215,7 +215,6 @@
 }
 
 .hero-link-container {
-  z-index: 20;
   position: absolute;
   top: 46px;
   left: 0;
@@ -274,9 +273,14 @@
   }
 }
 
-.hero-link:hover,
-.hero-link:focus {
+.hero-link:active {
   color: var(--brown);
+}
+@media (hover: hover) {
+  .hero-link:hover,
+  .hero-link:focus {
+    color: var(--brown);
+  }
 }
 
 .wrapper-box {
