@@ -1,7 +1,7 @@
 <header class="header container">
   <div class="top-block">
     <nav class="header-nav">
-      <a class="logo link" href="./index.html">Focus.Frame </a>
+      <a class="logo link" href="./index.html">Focus.Frame</a>
 
       <ul class="nav-list list">
         <li class="nav-list-item">
@@ -28,8 +28,13 @@
           </svg>
         </a>
 
-        <button type="button" class="menu-btn">
-          <svg width="32" height="22" class="burger-menu">
+        <button
+          type="button"
+          class="menu-btn menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg width="32" height="22" class="burger-menu mobile-menu-icon">
             <use href="./images/icons.svg#icon-burger"></use>
           </svg>
         </button>
