@@ -23,7 +23,6 @@
 
 .sign-form-input {
   width: 100%;
-
   padding: 14px 18px;
   background-color: transparent;
   border-radius: 12px;
@@ -32,8 +31,7 @@
   font-family: DM Sans;
   font-size: 14px;
   line-height: 1.29em;
-
-  transition: background-color var(--animation);
+  transition: border var(--animation), background-color var(--animation);
 }
 
 .sign-form-textarea {
