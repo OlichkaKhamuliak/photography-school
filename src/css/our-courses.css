@@ -143,6 +143,7 @@ letter-spacing: -0.02em;
 .section-opening {
         gap: 410px;
         align-items: flex-start;
+        padding-top: 150px;
     }
 .section-list{
     flex-wrap: nowrap;
@@ -152,10 +153,8 @@ letter-spacing: -0.02em;
 }
 .section-text{
     width: 405px;
-    padding-top: 150px;
 }
 .courses-title{
-    padding-top: 150px;
     letter-spacing: -0.04em;
 }
 }
