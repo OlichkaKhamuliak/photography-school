@@ -63,7 +63,7 @@ padding-top: 100px;
     justify-content: flex-end;
     gap: 20px;  
     position: relative;
-    bottom: 310px;
+    bottom: 300px;
     
 }
 
@@ -76,4 +76,20 @@ padding-top: 150px;
  .about{
     height: 0;
  }
+}
+@media screen and (min-width:1440px){
+    .about-desc{
+        display: flex;
+        width: 330px;
+        
+    }
+    
+    .about-desc-list{
+        gap: 40px;
+        bottom:270px ;
+    }
+    .two{
+        width: 276px;
+        height: 215px;
+    }
 }
