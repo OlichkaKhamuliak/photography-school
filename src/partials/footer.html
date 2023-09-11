@@ -72,8 +72,9 @@
             placeholder="Enter your email"
             name="email"
             class="footer-email-input"
-            pattern="regexp"
+            pattern="[a-z0-9.]{3,}@[a-z0-9.]{3,}"
             id="enter-email"
+            title="The mail cannot be less than 7 Latin characters and must contain @."
           />
           <button type="submit" class="form-button">Go</button>
         </form>
