@@ -122,13 +122,19 @@ address {
 .form-button {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.ci-info:hover,
-.ci-info:focus,
-.mlink:hover,
-.mlink:focus {
-  color: #bea69e;
+
+.ci-info:active{
+  color: var(--brown);
 }
-.form-button:hover,
+@media (hover: hover) {
+  .ci-info:hover,
+  .ci-info:focus,
+  .mlink:hover,
+  .mlink:focus {
+    color: var(--brown);
+  }
+}
+
 .form-button:active {
   color: #121212;
   background-color: #fff;

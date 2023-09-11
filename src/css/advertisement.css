@@ -1,13 +1,14 @@
 .marquee {
   overflow: hidden;
   font-size: 28px;
-  line-height: 1.1;
-  letter-spacing: -0.035em;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
   text-transform: uppercase;
   background-color: transparent;
   border: solid 1px rgba(255, 255, 255, 0.2);
   border-left: none;
   border-right: none;
+  font-weight: 400;
 }
 
 .marquee-inner {
@@ -43,7 +44,6 @@
   .marquee {
     font-size: 40px;
     line-height: 1.25;
-    letter-spacing: -0.05em;
   }
   .marquee-line {
     padding: 24px 20px;
@@ -54,6 +54,5 @@
   .marquee {
     font-size: 59px;
     line-height: 1.08;
-    letter-spacing: -0.074em;
   }
 }
