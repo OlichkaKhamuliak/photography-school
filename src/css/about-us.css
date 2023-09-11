@@ -1,6 +1,6 @@
 .about-desc{
 font-size: 14px;
-line-height: 1.29;
+line-height: 1.2;
 letter-spacing: -0.02em;
 display: flex;
 
@@ -26,19 +26,21 @@ display: flex;
 padding-top: 100px;
 }
     .about-desc{
+        
         width: 280px;
         font-size: 16px;
-        line-height: 1.25;  
+                
     }
     .about-desc-list{
     display:flex;
     flex-direction: row;
     gap: 40px;
-    }
-    .about-title,
-    .about-img {  
-        margin-bottom: 50px;
-    }
+}
+.about-title,
+.about-img
+{  
+ margin-bottom: 50px;
+}
 }
 /* TAblet */
 
@@ -48,9 +50,13 @@ padding-top: 100px;
 
     .about-desc{
         display: flex;
+        width: 280px;
+        font-size: 16px;
     
         font-size: 16px;  
         width: 268px;  
+       
+      
     }
     .about-desc-list{
    
