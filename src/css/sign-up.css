@@ -128,12 +128,14 @@
 @media (max-width: 1279px) {
   .sign-box {
     display: none;
+    list-style: none;
   }
 }
 
 @media (max-width: 1439px) {
   .sign-box-max {
     display: none;
+    list-style: none;
   }
 }
 
