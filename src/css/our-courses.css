@@ -47,6 +47,8 @@ padding: 28px;
 }
 .list-text {
 position: absolute;
+
+
 bottom: 28px;
 left: 28px;
 right: 28px;
@@ -55,8 +57,11 @@ font-size: 14px;
 line-height: 1.29;
 letter-spacing: -0.02em;
 }
-.list-button{
-background-color: #1D1D1D;
+.list-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1D1D1D;
     border-radius: 50%;
     border: none;
     cursor: pointer;
@@ -64,7 +69,19 @@ background-color: #1D1D1D;
     stroke: #777777;
     width: 32px;
     height: 32px;
+    transition: var(--animation);
 }
+.list-link:active{
+    stroke: var(--white);
+    background-color: var(--brown);
+  }
+    @media (hover: hover) {
+    .list-link:hover,
+    .list-link:focus {
+        stroke: var(--white);
+        background-color: var(--brown);
+    }
+  }
 .list-number{
     color: rgba(255, 255, 255, 0.40);
         font-size: 14px;
@@ -100,7 +117,7 @@ background-color: #1D1D1D;
         display: flex;
         gap: 58px;
         justify-content: center;
-        align-items: flex-end;
+        padding-top: 100px;
         margin-bottom: 50px;
     }
     .section-text{
@@ -112,7 +129,7 @@ background-color: #1D1D1D;
     .courses-title{
         font-size: 48px;
             line-height: 1.13;
-            padding-top: 100px;
+  padding-top: 0;
     }
     .list-text{
         font-size: 16px;
@@ -126,6 +143,7 @@ background-color: #1D1D1D;
 .section-opening {
         gap: 410px;
         align-items: flex-start;
+        padding-top: 150px;
     }
 .section-list{
     flex-wrap: nowrap;
@@ -135,10 +153,8 @@ background-color: #1D1D1D;
 }
 .section-text{
     width: 405px;
-    padding-top: 150px;
 }
 .courses-title{
-    padding-top: 150px;
     letter-spacing: -0.04em;
 }
 }
@@ -147,8 +163,11 @@ background-color: #1D1D1D;
     .section-text {
         width: 565px;
     }
-        .section-opening {
-            gap: 0;
-            justify-content: space-between;
-        }
+    .section-opening {
+        gap: 0;
+        justify-content: space-between;
+    }
+    .section-item {
+        width: 400px;
+    }
 }
