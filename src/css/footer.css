@@ -7,7 +7,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  border-top: solid 3px rgba(255, 255, 255, 0.2);
+  border-top: solid 1px rgba(255, 255, 255, 0.2);
 }
 
 @media (min-device-pixel-ratio: 2),
