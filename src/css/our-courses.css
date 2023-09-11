@@ -1,0 +1,74 @@
+.section-title{
+    padding-top: 80px;
+    margin-bottom: 20px;
+}
+.section-text{
+    margin-bottom: 40px;
+    color: var(--white);
+        font-family: 'DM Sans';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+}
+.section-list{
+    padding: 0;
+    margin: 0 auto;
+}
+.section-item{
+ position: relative;
+display: flex;
+flex-direction: column;
+border-radius: 12px;
+border: 1px solid rgba(255, 255, 255, 0.20);
+background: var(--linear-gradient);
+height: 398px;
+flex-shrink: 0;
+padding: 28px;
+}
+
+.section-item:not(:last-child){
+    margin-bottom: 20px;
+}
+.list-title{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14;
+    max-width: 279px;
+    margin-top: 28px;
+}
+.list-title-two {
+    max-width: 275px;
+    margin-top: 28px;
+}
+.list-text {
+position: absolute;
+bottom: 28px;
+left: 28px;
+right: 28px;
+color: rgba(255, 255, 255, 0.50);
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
+}
+.list-button{
+background-color: #1D1D1D;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    fill: transparent;
+    stroke: #777777;
+    width: 32px;
+    height: 32px;
+}
+.list-number{
+    color: rgba(255, 255, 255, 0.40);
+        font-size: 14px;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+}
+.list-opening{
+    display: flex;
+        justify-content: space-between
+}

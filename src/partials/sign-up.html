@@ -1,4 +1,4 @@
-<section class="sign-up">
+<section class="sign-up" id="sign-up">
   <div class="container sign-container">
     <div class="sign-form-container">
       <h2 class="section-title">Sign <span class="brown-title">up</span></h2>
@@ -14,7 +14,8 @@
             name="user-name"
             required
             placeholder="Enter your name"
-            pattern="\w{3,16}"
+            pattern="\w{3,}"
+            title="Enter your name of at least 3 characters (use only letters)"
           />
         </label>
 
@@ -25,7 +26,9 @@
             name="user-email"
             required
             placeholder="Enter your email"
-            minlength="3"
+            minlength="6"
+            pattern="[A-Za-z0-9@]{6,}"
+            title="The mail cannot be less than 6 Latin characters and must contain @."
           />
         </label>
 
@@ -34,7 +37,7 @@
           class="sign-form-textarea"
           name="user-comment"
           id="user-comment"
-          rows="7"
+          rows="4"
           placeholder="Message"
           required
           minlength="7"

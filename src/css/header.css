@@ -1,5 +1,20 @@
 .header {
   margin-top: 20px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 280px;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .hero {
+    min-height: 150px;
+  }
+
+  .header {
+    min-width: 100%;
+  }
 }
 .header-nav {
   display: flex;
@@ -8,12 +23,23 @@
   justify-content: space-between;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  width: 504px;
+
+  width: 335px;
+}
+@media only screen and (min-width: 768px) {
+  .header-nav {
+    width: 504px;
+  }
 }
 @media only screen and (min-width: 1280px) {
   .header-nav {
     width: 822px;
     padding: 0 50px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .header-nav {
+    width: 982px;
   }
 }
 .top-block {
@@ -28,6 +54,13 @@
   font-weight: 600;
   letter-spacing: -0.08em;
 }
+
+@media only screen and (min-width: 1280px) {
+  .logo {
+    margin: 17px 0 17px 0px;
+  }
+}
+
 .nav-list {
   display: flex;
   align-items: center;
@@ -35,6 +68,11 @@
 @media only screen and (min-width: 1280px) {
   .nav-list {
     gap: 28px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .nav-list {
+    gap: 40px;
   }
 }
 .sign-up-link {

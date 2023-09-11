@@ -1,3 +1,7 @@
+.sign-container {
+  padding-top: 80px;
+}
+
 .sign-text {
   max-width: 295px;
   margin-top: 20px;
@@ -15,25 +19,33 @@
 
 .sign-form-input {
   width: 100%;
-  height: 46px;
-  padding-left: 18px;
+
+  padding: 14px 18px;
   background-color: transparent;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: var(--white);
-  opacity: 0.7;
+  font-family: DM Sans;
+  font-size: 14px;
+  line-height: 1.29em;
+
+  transition: background-color var(--animation);
 }
 
 .sign-form-textarea {
   width: 100%;
-  height: 112px;
-  padding-left: 18px;
+
+  padding: 15px 18px;
   margin-bottom: 40px;
   background-color: transparent;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: var(--white);
-  opacity: 0.7;
+  resize: none;
+  font-family: DM Sans;
+  font-size: 14px;
+  line-height: 1.29em;
+  transition: background-color var(--animation);
 }
 
 .input-margin {
@@ -43,10 +55,17 @@
 
 .sign-form-input::placeholder,
 .sign-form-textarea::placeholder {
-  color: var(--white);
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.29; /* 128.571% */
+  opacity: 0.7;
+}
+
+.sign-form-input:active,
+.sign-form-input:hover,
+.sign-form-input:focus,
+.sign-form-textarea:active,
+.sign-form-textarea:hover,
+.sign-form-textarea:focus {
+  background-color: var(--gray);
+  border: 1px solid var(--white);
 }
 
 .sign-form-textarea {
@@ -55,7 +74,9 @@
 
 .sign-form-button {
   width: 100%;
-  height: 48px;
+  padding: 14px;
+  border: none;
+
   margin-bottom: 20px;
   font-size: 16px;
   font-weight: 700;
@@ -63,6 +84,23 @@
   text-transform: uppercase;
   border-radius: 14px;
   background: var(--white, #fff);
+  transition: color background-color var(--animation);
+}
+
+.sign-form-button:active,
+.sign-form-button:hover {
+  cursor: pointer;
+  color: var(--brown);
+  background-color: var(--gray);
+}
+
+@media (hover: hover) {
+  .sign-form-button:hover,
+  .sign-form-button:focus {
+    cursor: pointer;
+    color: var(--brown);
+    background-color: var(--gray);
+  }
 }
 
 .sign-text-adept {
@@ -90,6 +128,10 @@
   |============================
 */
 @media (min-width: 768px) {
+  .sign-container {
+    padding-top: 100px;
+  }
+
   .sign-form-container,
   .sign-text,
   .sign-text-adept {
@@ -99,6 +141,17 @@
   .input-margin {
     margin-top: 14px;
     margin-bottom: 13px;
+  }
+
+  .sign-form-input,
+  .sign-form-textarea {
+    padding: 20px 18px;
+  }
+
+  .sign-form-button {
+    font-size: 18px;
+    height: 60px;
+    padding: 16px;
   }
 }
 
@@ -111,6 +164,7 @@
   .sign-container {
     display: flex;
     gap: 60px;
+    padding-top: 150px;
   }
 
   .sign-box {
