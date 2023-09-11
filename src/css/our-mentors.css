@@ -32,6 +32,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         column-gap: 100px;
+        justify-content: flex-start;
         padding-left: 115px;
     }
 }
@@ -39,6 +40,7 @@
     .mentors-list {
         gap: 93px;
         padding-left: 0;
+        justify-content: center;
     }
 }
 @media screen and (min-width: 1440px) {
@@ -96,6 +98,5 @@
 @media screen and (min-width: 768px) {
     .mentors-list-desc {
         font-size: 14px;
-        line-height: 1.29;
     }
 }
