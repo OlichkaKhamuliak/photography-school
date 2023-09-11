@@ -79,8 +79,11 @@
 }
 
 .star {
+  width: 16px;
+  height: 16px;
   fill: var(--star-inactive);
 }
+
 .star.active {
   fill: var(--star-active);
 }
@@ -90,7 +93,7 @@
   .reviews-section {
     padding: 100px 0;
   }
-  .section-title {
+  .reviews-title {
     margin-bottom: 50px;
   }
 
@@ -109,6 +112,10 @@
   }
   .star-box {
     margin-left: auto;
+  }
+  .star {
+    width: 20px;
+    height: 20px;
   }
   .reviews-box {
     margin: 0 32px;

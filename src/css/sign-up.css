@@ -4,7 +4,7 @@
 
 .sign-title {
   padding: 0;
-  margin-bottom: 20;
+  margin-bottom: 20px;
 }
 
 .sign-text {
@@ -61,9 +61,7 @@
 }
 
 .sign-form-input:active,
-.sign-form-input:hover,
-.sign-form-textarea:active,
-.sign-form-textarea:hover {
+.sign-form-textarea:active {
   background-color: var(--gray);
   border: 1px solid var(--white);
 }
@@ -96,8 +94,7 @@
   transition: color var(--animation), background-color var(--animation);
 }
 
-.sign-form-button:active,
-.sign-form-button:hover {
+.sign-form-button:active {
   cursor: pointer;
   color: var(--brown);
   background-color: var(--gray);
