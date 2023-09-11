@@ -87,5 +87,8 @@ padding-top: 150px;
     .about-desc-list{
         gap: 40px;
     }
-    
+    .about-desc-two{
+        width: 276px;
+        height: 215px;
+    }
 }
