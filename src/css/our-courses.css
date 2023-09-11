@@ -64,14 +64,12 @@
   border: none;
   cursor: pointer;
   fill: transparent;
-  /* stroke: #777777; */
+  stroke: #777777;
   width: 32px;
   height: 32px;
-  transition: var(--animation);
+  transition: stroke var(--animation), background-color var(--animation);
 }
-.list-svg {
-  stroke: #777777;
-}
+
 .list-link:active {
   stroke: var(--white);
   background-color: var(--brown);
