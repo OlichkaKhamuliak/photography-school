@@ -1,57 +1,59 @@
 .marquee {
-    overflow: hidden;
-    font-size: 28px;
-    line-height: 1.1;
-    letter-spacing: -0.035em;
-    text-transform: uppercase;
-    background-color: transparent;
-    border: solid 1px rgba(255, 255, 255, 0.20);
-  }
-  
-  .marquee-inner {
-    display: flex;
-  }
-  
-  .marquee-line {
-    flex-shrink: 0;
-    padding: 20px 15px;
-    min-width: 100%;
-    white-space: nowrap;
-    animation-name: marqueeLine;
-    animation-duration: 5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
+  overflow: hidden;
+  font-size: 28px;
+  line-height: 1.1;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: solid 1px rgba(255, 255, 255, 0.2);
+  border-left: none;
+  border-right: none;
+}
+
+.marquee-inner {
+  display: flex;
+}
+
+.marquee-line {
+  flex-shrink: 0;
+  padding: 20px 15px;
+  min-width: 100%;
+  white-space: nowrap;
+  animation-name: marqueeLine;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.brown-text {
+  color: var(--brown);
+}
+
+@keyframes marqueeLine {
+  from {
+    transform: translateX(0);
   }
 
-  .brown-text {
-    color: var(--brown);
+  to {
+    transform: translateX(-100%);
   }
-  
-  @keyframes marqueeLine {
-    from {
-      transform: translateX(0);
-    }
-    
-    to {
-      transform: translateX(-100%);
-    }
-  }
+}
 
 @media only screen and (min-width: 768px) {
-    .marquee {
-      font-size: 40px;
-      line-height: 1.25;
-      letter-spacing: -0.05em;
-    }
-    .marquee-line {
-        padding: 24px 20px;
-    }
-  } 
+  .marquee {
+    font-size: 40px;
+    line-height: 1.25;
+    letter-spacing: -0.05em;
+  }
+  .marquee-line {
+    padding: 24px 20px;
+  }
+}
 
 @media only screen and (min-width: 1280px) {
-    .marquee {
-      font-size: 59px;
-      line-height: 1.08;
-      letter-spacing: -0.074em;
+  .marquee {
+    font-size: 59px;
+    line-height: 1.08;
+    letter-spacing: -0.074em;
   }
 }
