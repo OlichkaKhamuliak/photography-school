@@ -2,9 +2,13 @@
   padding-top: 80px;
 }
 
+.sign-title {
+  padding: 0;
+  margin-bottom: 0;
+}
+
 .sign-text {
   max-width: 295px;
-  margin-top: 20px;
   margin-bottom: 41px;
   font-size: 14px;
   font-weight: 400;
@@ -196,7 +200,7 @@
     display: flex;
     align-items: flex-end;
     gap: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 38px;
   }
 
   .sign-img-lens {
