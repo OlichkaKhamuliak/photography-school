@@ -1,173 +1,173 @@
-.courses-title{
-    padding-top: 80px;
-    margin-bottom: 20px;
-     
+.courses-title {
+  padding-top: 80px;
+  margin-bottom: 20px;
 }
-.section-text{
-    color: var(--white);
-        font-family: 'DM Sans';
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 1.29;
-        letter-spacing: -0.02em;
+.section-text {
+  color: var(--white);
+  font-family: 'DM Sans';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
 }
-.section-opening{
-    margin-bottom: 40px;
+.section-opening {
+  margin-bottom: 40px;
 }
-.section-list{
-    padding: 0;
-    margin: 0 auto;
+.section-list {
+  padding: 0;
+  margin: 0 auto;
 }
-.section-item{
- position: relative;
-display: flex;
-flex-direction: column;
-border-radius: 12px;
-border: 1px solid rgba(255, 255, 255, 0.20);
-background: var(--linear-gradient);
-height: 398px;
-flex-shrink: 0;
-padding: 28px;
+.section-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: var(--linear-gradient);
+  height: 398px;
+  flex-shrink: 0;
+  padding: 28px;
 }
 
-.section-item:not(:last-child){
-    margin-bottom: 20px;
+.section-item:not(:last-child) {
+  margin-bottom: 20px;
 }
-.list-title{
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 1.14;
-    max-width: 279px;
-    margin-top: 28px;
+.list-title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  max-width: 279px;
+  margin-top: 28px;
 }
 .list-title-two {
-    max-width: 275px;
-    margin-top: 28px;
+  max-width: 275px;
+  margin-top: 28px;
 }
 .list-text {
-position: absolute;
+  position: absolute;
 
-
-bottom: 28px;
-left: 28px;
-right: 28px;
-color: rgba(255, 255, 255, 0.50);
-font-size: 14px;
-line-height: 1.29;
-letter-spacing: -0.02em;
+  bottom: 28px;
+  left: 28px;
+  right: 28px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
 }
-.list-link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #1D1D1D;
-    border-radius: 50%;
-    border: none;
-    cursor: pointer;
-    fill: transparent;
-    stroke: #777777;
-    width: 32px;
-    height: 32px;
-    transition: var(--animation);
+.list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1d1d1d;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  fill: transparent;
+  /* stroke: #777777; */
+  width: 32px;
+  height: 32px;
+  transition: var(--animation);
 }
-.list-link:active{
+.list-svg {
+  stroke: #777777;
+}
+.list-link:active {
+  stroke: var(--white);
+  background-color: var(--brown);
+}
+@media (hover: hover) {
+  .list-link:hover,
+  .list-link:focus {
     stroke: var(--white);
     background-color: var(--brown);
   }
-    @media (hover: hover) {
-    .list-link:hover,
-    .list-link:focus {
-        stroke: var(--white);
-        background-color: var(--brown);
-    }
+}
+.list-number {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+.list-opening {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (min-width: 768px) {
+  .section-item {
+    width: 342px;
+    height: 452px;
+    width: calc((100% - 20px) / 2);
+    margin-bottom: 0;
+    padding: 32px;
   }
-.list-number{
-    color: rgba(255, 255, 255, 0.40);
-        font-size: 14px;
-        line-height: 1.29;
-        letter-spacing: -0.02em;
-}
-.list-opening{
+  .section-item:not(:last-child) {
+    margin-bottom: 0;
+  }
+  .section-list {
+    gap: 20px 20px;
     display: flex;
-        justify-content: space-between
+    flex-wrap: wrap;
+  }
+  .list-title {
+    max-width: 265px;
+    font-size: 28px;
+    margin-top: 32px;
+  }
+  .section-opening {
+    display: flex;
+    gap: 58px;
+    justify-content: center;
+    padding-top: 100px;
+    margin-bottom: 50px;
+  }
+  .section-text {
+    width: 381px;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  .courses-title {
+    font-size: 48px;
+    line-height: 1.13;
+    padding-top: 0;
+  }
+  .list-text {
+    font-size: 16px;
+    line-height: 1.25;
+    left: 32px;
+    right: 32px;
+    bottom: 32px;
+  }
 }
-@media screen and (min-width: 768px){
-    .section-item{
-        width: 342px;
-        height: 452px;
-        width: calc((100% - 20px) / 2);
-        margin-bottom: 0;
-        padding: 32px;
-    }
-        .section-item:not(:last-child){
-            margin-bottom: 0;
-        }
-    .section-list{
-        gap: 20px 20px;
-        display: flex;
-            flex-wrap: wrap;
-    }
-    .list-title{
-        max-width: 265px;
-        font-size: 28px;
-        margin-top: 32px;
-    }
-    .section-opening{
-        display: flex;
-        gap: 58px;
-        justify-content: center;
-        padding-top: 100px;
-        margin-bottom: 50px;
-    }
-    .section-text{
-        width: 381px;
-        font-size: 16px;
-        line-height: 1.25;
-
-    }
-    .courses-title{
-        font-size: 48px;
-            line-height: 1.13;
-  padding-top: 0;
-    }
-    .list-text{
-        font-size: 16px;
-        line-height: 1.25;
-        left: 32px;
-        right: 32px;
-        bottom: 32px;
-    }
-}
-@media screen and (min-width: 1280px){
-.section-opening {
-        gap: 410px;
-        align-items: flex-start;
-        padding-top: 150px;
-    }
-.section-list{
+@media screen and (min-width: 1280px) {
+  .section-opening {
+    gap: 410px;
+    align-items: flex-start;
+    padding-top: 150px;
+  }
+  .section-list {
     flex-wrap: nowrap;
-}
-.section-item{
+  }
+  .section-item {
     width: 347px;
-}
-.section-text{
+  }
+  .section-text {
     width: 405px;
-}
-.courses-title{
+  }
+  .courses-title {
     letter-spacing: -0.04em;
-}
+  }
 }
 
-@media screen  and (min-width: 1440px){
-    .section-text {
-        width: 565px;
-    }
-    .section-opening {
-        gap: 0;
-        justify-content: space-between;
-    }
-    .section-item {
-        width: 400px;
-    }
+@media screen and (min-width: 1440px) {
+  .section-text {
+    width: 565px;
+  }
+  .section-opening {
+    gap: 0;
+    justify-content: space-between;
+  }
+  .section-item {
+    width: 400px;
+  }
 }
