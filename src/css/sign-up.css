@@ -223,7 +223,7 @@
   }
 
   .img-lens-item {
-    transform: translateY(50%);
+    transform: translateY(45%);
     scale: 1.25;
   }
 
@@ -235,7 +235,7 @@
   }
 
   .img-camera-item {
-    transform: translateY(50%);
+    transform: translateY(45%);
     margin-right: auto;
     margin-left: auto;
   }
@@ -268,5 +268,13 @@
 
   .sign-img-camera {
     width: 350px;
+  }
+
+  .img-lens-item {
+    transform: translateY(40%);
+  }
+
+  .img-camera-item {
+    transform: translateY(40%);
   }
 }
