@@ -26,21 +26,19 @@ display: flex;
 padding-top: 100px;
 }
     .about-desc{
-        
         width: 280px;
         font-size: 16px;
-                
+        line-height: 1.25;  
     }
     .about-desc-list{
     display:flex;
     flex-direction: row;
     gap: 40px;
-}
-.about-title,
-.about-img
-{  
- margin-bottom: 50px;
-}
+    }
+    .about-title,
+    .about-img {  
+        margin-bottom: 50px;
+    }
 }
 /* TAblet */
 

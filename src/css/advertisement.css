@@ -44,7 +44,6 @@
   .marquee {
     font-size: 40px;
     line-height: 1.25;
-    letter-spacing: -0.05em;
   }
   .marquee-line {
     padding: 24px 20px;

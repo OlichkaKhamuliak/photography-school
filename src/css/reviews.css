@@ -94,7 +94,7 @@
     padding: 100px 0;
   }
   .reviews-title {
-    margin-bottom: 50px;
+    padding-bottom: 50px;
   }
 
   .reviews-name {
@@ -103,7 +103,6 @@
   .reviews-about {
     font-size: 14px;
     line-height: 1.28;
-    letter-spacing: -0.017em;
   }
   .reviews-response-text {
     font-size: 16px;

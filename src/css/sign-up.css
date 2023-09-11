@@ -15,6 +15,11 @@
   line-height: 1.29; /* 128.571% */
   letter-spacing: -0.02em;
 }
+@media only screen and (min-width: 768px) {
+  .sign-text {
+    margin-bottom: 40px;
+  }
+}
 
 .sign-form {
   display: flex;
