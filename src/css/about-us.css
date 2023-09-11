@@ -63,7 +63,7 @@ padding-top: 100px;
     justify-content: flex-end;
     gap: 20px;  
     position: relative;
-    bottom: 310px;
+    bottom: 300px;
     
 }
 
@@ -86,8 +86,9 @@ padding-top: 150px;
     
     .about-desc-list{
         gap: 40px;
+        bottom:270px ;
     }
-    .about-desc-two{
+    .two{
         width: 276px;
         height: 215px;
     }
