@@ -163,8 +163,11 @@ letter-spacing: -0.02em;
     .section-text {
         width: 565px;
     }
-        .section-opening {
-            gap: 0;
-            justify-content: space-between;
-        }
+    .section-opening {
+        gap: 0;
+        justify-content: space-between;
+    }
+    .section-item {
+        width: 400px;
+    }
 }
