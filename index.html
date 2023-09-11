@@ -18,14 +18,13 @@
 
     <!-- Custom styles -->
     
-    <script type="module" crossorigin src="/photography-school/assets/index-55096b83.js"></script>
-    <link rel="stylesheet" href="/photography-school/assets/index-a7f6d704.css">
+    <link rel="stylesheet" href="/photography-school/assets/index-e6448598.css">
   </head>
   <body>
     <header class="header container">
   <div class="top-block">
     <nav class="header-nav">
-      <a class="logo link" href="./index.html">Focus.Frame </a>
+      <a class="logo link" href="./index.html">Focus.Frame</a>
 
       <ul class="nav-list list">
         <li class="nav-list-item">
@@ -52,9 +51,16 @@
           </svg>
         </a>
 
-        <button type="button" class="menu-btn">
-          <svg width="32" height="22" class="burger-menu">
+
+        <button
+          type="button"
+          class="menu-btn menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg width="32" height="22" class="burger-menu mobile-menu-icon">
             <use href="/photography-school/assets/icons-fb789b30.svg#icon-burger"></use>
+
           </svg>
         </button>
       </div>
@@ -691,8 +697,49 @@
   </div>
 </footer>
 
-    
+      <div class="menu-container js-menu-container" id="mobile-menu">
+        <div class="modal-menu-wrapper">
+            <button class="close-btn menu-close-btn js-close-menu">
+                <svg class="close-icon-btn menu-close-icon" width="32" height="32">
+                <use href="/photography-school/assets/icons-fb789b30.svg#icon-close"></use>
+                </svg>
+            </button>
 
-    
+            <ul class="mobile-menu list">
+                <li class="mobile-menu-item">
+                <a class="mobile-menu-link current link" href="#about-us">About us</a>
+                </li>
+                <li class="mobile-menu-item">
+                <a class="mobile-menu-link link" href="#our-courses">Our courses</a>
+                </li>
+                <li class="mobile-menu-item">
+                <a class="mobile-menu-link link" href="#our-mentors">Our mentors</a>
+                </li>
+                <li class="mobile-menu-item">
+                <a class="mobile-menu-link link" href="#reviews">Reviews</a>
+                </li>
+                <li class="mobile-menu-item">
+                <a class="mobile-menu-link link" href="#contacts">Contacts</a>
+                </li>
+            </ul>
+
+            <img class="mobile-menu-img"
+                srcset="/photography-school/assets/menu-mob-c6bf72c2.jpg 1x ./images/menu-mob@2x.jpg 2x"
+                src="/photography-school/assets/menu-mob-c6bf72c2.jpg" 
+                alt="camera"
+                width="218"
+                height="329"
+                loading="lazy" 
+            />
+        </div>
+  </div>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>
