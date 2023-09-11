@@ -58,10 +58,6 @@
   color: var(--black);
 }
 
-.current {
-  font-weight: 700;
-}
-
 .modal-menu-wrapper {
   position: relative;
   display: flex;
@@ -76,4 +72,30 @@
 .mobile-menu-img {
   max-width: 100%;
   padding: 0;
+}
+
+.mobile-menu-link {
+  position: relative;
+  transition: opacity var(--animation);
+}
+
+.mobile-menu-link::after {
+  position: absolute;
+  content: '';
+  opacity: 0;
+}
+
+.mobile-menu-link:hover::after,
+.mobile-menu-link:focus::after {
+  opacity: 1;
+}
+
+.mobile-menu-link.current,
+.mobile-menu-link:hover,
+.mobile-menu-link:focus,
+.mobile-menu-link:active {
+  font-weight: 700;
+}
+.current {
+  font-weight: 700;
 }
