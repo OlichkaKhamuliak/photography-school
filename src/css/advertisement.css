@@ -19,11 +19,24 @@
   flex-shrink: 0;
   padding: 20px 15px;
   min-width: 100%;
+  font-weight: normal;
   white-space: nowrap;
   animation-name: marqueeLine;
   animation-duration: 5s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
+
+  font-size: 28px;
+}
+@media only screen and (min-width: 768px) {
+  .marquee-line {
+      font-size: 40px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .marquee-line {
+  font-size: 59px;
+  }
 }
 
 .brown-text {
