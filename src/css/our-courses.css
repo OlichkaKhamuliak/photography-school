@@ -1,5 +1,7 @@
-.courses-title {
+.our-courses {
   padding-top: 80px;
+}
+.courses-title {
   margin-bottom: 20px;
 }
 .section-text {
@@ -116,8 +118,10 @@
     display: flex;
     gap: 58px;
     justify-content: center;
-    padding-top: 100px;
     margin-bottom: 50px;
+  }
+  .our-courses {
+    padding-top: 100px;
   }
   .section-text {
     width: 381px;
@@ -127,7 +131,6 @@
   .courses-title {
     font-size: 48px;
     line-height: 1.13;
-    padding-top: 0;
   }
   .list-text {
     font-size: 16px;
@@ -141,6 +144,8 @@
   .section-opening {
     gap: 410px;
     align-items: flex-start;
+  }
+  .our-courses {
     padding-top: 150px;
   }
   .section-list {

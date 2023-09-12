@@ -4,20 +4,22 @@
   |============================
 */
 :root {
+  /* colors */
+  --black: #121212;
+  --gray: #1d1d1d;
+  --linear-gradient: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+  --brown: #bea69e;
+  --white: #fff;
 
-    /* colors */
-    --black: #121212;
-    --gray: #1D1D1D;
-    --linear-gradient: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
-    --brown: #BEA69E;
-    --white: #FFF;
-
-    /* others */
-    --indent: 20px;
-    --items: 2;
-    --animation: 350ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* others */
+  --indent: 20px;
+  --items: 2;
+  --animation: 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 /**
   |============================
@@ -27,129 +29,125 @@
 
 /* dm-sans-regular - latin */
 @font-face {
-    font-display: swap;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/dm-sans-v14-latin-regular.woff2') format('woff2');
+  font-display: swap;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/dm-sans-v14-latin-regular.woff2') format('woff2');
 }
 
 /* dm-sans-italic - latin */
 @font-face {
-    font-display: swap;
-    font-family: 'DM Sans';
-    font-style: italic;
-    font-weight: 400;
-    src: url('../fonts/dm-sans-v14-latin-italic.woff2') format('woff2');
+  font-display: swap;
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/dm-sans-v14-latin-italic.woff2') format('woff2');
 }
 
 /* dm-sans-500 - latin */
 @font-face {
-    font-display: swap;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    src: url('../fonts/dm-sans-v14-latin-500.woff2') format('woff2');
+  font-display: swap;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/dm-sans-v14-latin-500.woff2') format('woff2');
 }
 
 /* dm-sans-700 - latin */
 @font-face {
-    font-display: swap;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 700;
-    src: url('../fonts/dm-sans-v14-latin-700.woff2') format('woff2');
+  font-display: swap;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/dm-sans-v14-latin-700.woff2') format('woff2');
 }
 
-
 body {
-    font-family: 'DM Sans', sans-serif;
-    color: var(--white);
-    background-color: var(--black);
+  font-family: 'DM Sans', sans-serif;
+  color: var(--white);
+  background-color: var(--black);
 }
 
 .link {
-    text-decoration: none;
-    color: currentColor;
+  text-decoration: none;
+  color: currentColor;
 }
 
 .list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* Phone screens */
 .container {
-    min-width: 320px;
-    max-width: 375px;
+  min-width: 320px;
+  max-width: 375px;
 
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 
-    padding-left: 20px;
-    padding-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 
-/* Рамки, які підсвічують наш контейнер */
-    /* outline: 2px solid red;
+  /* Рамки, які підсвічують наш контейнер */
+  /* outline: 2px solid red;
     outline-offset: -2px; */
 }
 /* Tablet screens */
 @media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
+  .container {
+    max-width: 768px;
 
-        padding-left: 32px;
-        padding-right: 32px;
-    }
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 }
 /* Desctop screens */
 @media screen and (min-width: 1280px) {
-    .container {
-        max-width: 1280px;
-        padding-left: 100px;
-        padding-right: 100px;
-    }
+  .container {
+    max-width: 1280px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
 }
 @media screen and (min-width: 1440px) {
-    .container {
-        max-width: 1440px;
-        padding-left: 100px;
-        padding-right: 100px;
-    }
+  .container {
+    max-width: 1440px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
 }
 
 /* Приховані елементи */
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* Заголовки секцій */
 .section-title {
-    font-size: 28px;
-    line-height: 1.14em;
-    font-weight: 500;
-    letter-spacing: -0.04em;
+  font-size: 28px;
+  line-height: 1.14em;
+  font-weight: 500;
+  letter-spacing: -0.04em;
 }
 /* Тег спан в заголовку */
 .brown-title {
-    color: var(--brown);
+  color: var(--brown);
 }
 @media screen and (min-width: 768px) {
-    .section-title {
+  .section-title {
     font-size: 48px;
     line-height: 1.13;
-    }
+  }
 }
-
-
-

@@ -73,19 +73,22 @@
 .hero-container {
   border-radius: 30px;
   background-color: var(--gray);
-  padding: 0 20px;
+  padding: 40px 20px;
+  padding-bottom: 0;
 }
 
 @media only screen and (min-width: 768px) {
   .hero-container {
-    padding: 0 32px;
+    padding: 64px 32px;
+    padding-bottom: 0;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .hero-container {
-    padding: 0 50px;
+    padding: 80px 50px;
     height: 600px;
+    padding-bottom: 0;
   }
 }
 
@@ -96,7 +99,6 @@
 }
 
 .hero-captian {
-  padding-top: 40px;
   max-width: 295px;
 
   color: var(--white);
@@ -108,7 +110,6 @@
 
 @media only screen and (min-width: 768px) {
   .hero-captian {
-    padding-top: 64px;
     max-width: 517px;
 
     font-size: 60px;
@@ -118,7 +119,6 @@
 
 @media only screen and (min-width: 1280px) {
   .hero-captian {
-    padding-top: 80px;
     max-width: 563px;
 
     font-size: 64px;
@@ -373,7 +373,7 @@
   .hero-photograf-art {
     margin-left: 0;
     margin-right: 0;
-    margin-top: 0;
+    margin-top: -61px;
   }
 }
 
