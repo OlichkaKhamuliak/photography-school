@@ -18,8 +18,8 @@
 
     <!-- Custom styles -->
     
-    <script type="module" crossorigin src="/photography-school/assets/index-914f2f3b.js"></script>
-    <link rel="stylesheet" href="/photography-school/assets/index-a58d4f99.css">
+    <script type="module" crossorigin src="/photography-school/assets/index-c6df0f27.js"></script>
+    <link rel="stylesheet" href="/photography-school/assets/index-767a3ca2.css">
   </head>
   <body>
     <header class="header container">
@@ -52,7 +52,6 @@
           </svg>
         </a>
 
-
         <button
           type="button"
           class="menu-btn menu-toggle js-open-menu"
@@ -61,7 +60,6 @@
         >
           <svg width="32" height="22" class="burger-menu mobile-menu-icon">
             <use href="/photography-school/assets/icons-fb789b30.svg#icon-burger"></use>
-
           </svg>
         </button>
       </div>
@@ -734,8 +732,7 @@
   </div>
 </footer>
 
-    <div class="menu-container js-menu-container" id="mobile-menu">
-  <div class="back-box">
+    <div class="menu-container back-box js-menu-container" id="mobile-menu">
     <div class="modal-menu-wrapper">
       <button class="close-btn menu-close-btn js-close-menu">
         <svg class="close-icon-btn menu-close-icon" width="32" height="32">
@@ -759,18 +756,36 @@
           <a class="mobile-menu-link link" href="#contacts">Contacts</a>
         </li>
       </ul>
+
+<picture>
+      <!-- Tablet screen -->
+      <source
+        class="mobile-menu-img"
+        media="(min-width: 768px)"
+        srcset="/photography-school/assets/menu-desk-7d5ac6f4.jpg 1x, /photography-school/assets/menu-desk@2x-759f9c07.jpg 2x"
+        width="476"
+        height="480"
+      />
+           <!-- Mobile screen -->
+      <source
+        media="(max-width: 767px)"
+        srcset="/photography-school/assets/menu-mob-c6bf72c2.jpg 1x, /photography-school/assets/menu-mob@2x-414adbc3.jpg 2x"
+         width="329"
+        height="218"
+      />
       <img
         class="mobile-menu-img"
-        srcset="/photography-school/assets/menu-mob-c6bf72c2.jpg 1x, /photography-school/assets/menu-mob@2x-414adbc3.jpg 2x"
-        src="/photography-school/assets/menu-mob-c6bf72c2.jpg"
-        alt="camera"
+        src="../images/menu-desk.jpg"
+        alt="camera photo"
         width="476"
         height="480"
         loading="lazy"
       />
+    </picture>
     </div>
   </div>
 </div>
+
     
   </body>
 </html>
