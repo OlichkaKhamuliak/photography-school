@@ -19,6 +19,7 @@
   flex-shrink: 0;
   padding: 20px 15px;
   min-width: 100%;
+  font-weight: normal;
   white-space: nowrap;
   animation-name: marqueeLine;
   animation-duration: 5s;
