@@ -1,5 +1,4 @@
-<div class="menu-container js-menu-container" id="mobile-menu">
-  <div class="back-box">
+<div class="menu-container back-box js-menu-container" id="mobile-menu">
     <div class="modal-menu-wrapper">
       <button class="close-btn menu-close-btn js-close-menu">
         <svg class="close-icon-btn menu-close-icon" width="32" height="32">
@@ -23,15 +22,32 @@
           <a class="mobile-menu-link link" href="#contacts">Contacts</a>
         </li>
       </ul>
+
+<picture>
+      <!-- Tablet screen -->
+      <source
+        class="mobile-menu-img"
+        media="(min-width: 768px)"
+        srcset="./images/menu-desk.jpg 1x, ./images/menu-desk@2x.jpg 2x"
+        width="476"
+        height="480"
+      />
+           <!-- Mobile screen -->
+      <source
+        media="(max-width: 767px)"
+        srcset="./images/menu-mob.jpg 1x, ./images/menu-mob@2x.jpg 2x"
+         width="329"
+        height="218"
+      />
       <img
         class="mobile-menu-img"
-        srcset="./images/menu-mob.jpg 1x, ./images/menu-mob@2x.jpg 2x"
-        src="./images/menu-mob.jpg"
-        alt="camera"
+        src="../images/menu-desk.jpg"
+        alt="camera photo"
         width="476"
         height="480"
         loading="lazy"
       />
+    </picture>
     </div>
   </div>
 </div>
